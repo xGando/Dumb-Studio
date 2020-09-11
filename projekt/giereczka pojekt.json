@@ -14,7 +14,7 @@
     "orientation": "landscape",
     "packageName": "com.example.gamename",
     "projectFile": "E:\\dumb studio\\Dumb-Studio\\projekt\\giereczka pojekt.json",
-    "scaleMode": "linear",
+    "scaleMode": "nearest",
     "sizeOnStartupMode": "adaptWidth",
     "useExternalSourceFiles": false,
     "version": "0.0.1",
@@ -22,8 +22,8 @@
     "winExecutableIconFile": "",
     "name": "Necrotale",
     "author": "twój stary pijany",
-    "windowWidth": 1680,
-    "windowHeight": 1050,
+    "windowWidth": 420,
+    "windowHeight": 262,
     "latestCompilationDirectory": "",
     "maxFPS": 60,
     "minFPS": 20,
@@ -131,7 +131,7 @@
         "kind": "image",
         "metadata": "",
         "name": "desktop-icon-512.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": true
       },
       {
@@ -140,7 +140,7 @@
         "kind": "image",
         "metadata": "",
         "name": "android-icon-192.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": true
       },
       {
@@ -149,7 +149,7 @@
         "kind": "image",
         "metadata": "",
         "name": "android-icon-144.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": true
       },
       {
@@ -158,7 +158,7 @@
         "kind": "image",
         "metadata": "",
         "name": "android-icon-96.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": true
       },
       {
@@ -167,7 +167,7 @@
         "kind": "image",
         "metadata": "",
         "name": "android-icon-72.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": true
       },
       {
@@ -176,7 +176,7 @@
         "kind": "image",
         "metadata": "",
         "name": "android-icon-48.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": true
       },
       {
@@ -185,7 +185,7 @@
         "kind": "image",
         "metadata": "",
         "name": "android-icon-36.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": true
       },
       {
@@ -194,7 +194,7 @@
         "kind": "image",
         "metadata": "",
         "name": "ios-icon-180.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": true
       },
       {
@@ -203,7 +203,7 @@
         "kind": "image",
         "metadata": "",
         "name": "ios-icon-167.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": true
       },
       {
@@ -212,7 +212,7 @@
         "kind": "image",
         "metadata": "",
         "name": "ios-icon-152.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": true
       },
       {
@@ -221,7 +221,7 @@
         "kind": "image",
         "metadata": "",
         "name": "ios-icon-144.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": true
       },
       {
@@ -230,7 +230,7 @@
         "kind": "image",
         "metadata": "",
         "name": "ios-icon-120.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": true
       },
       {
@@ -239,7 +239,7 @@
         "kind": "image",
         "metadata": "",
         "name": "ios-icon-114.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": true
       },
       {
@@ -248,7 +248,7 @@
         "kind": "image",
         "metadata": "",
         "name": "ios-icon-100.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": true
       },
       {
@@ -257,7 +257,7 @@
         "kind": "image",
         "metadata": "",
         "name": "ios-icon-80.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": true
       },
       {
@@ -275,7 +275,7 @@
         "kind": "image",
         "metadata": "",
         "name": "ios-icon-72.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": true
       },
       {
@@ -338,7 +338,7 @@
         "kind": "image",
         "metadata": "",
         "name": "character_0.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": true
       },
       {
@@ -347,7 +347,7 @@
         "kind": "image",
         "metadata": "",
         "name": "character_1.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": true
       },
       {
@@ -356,7 +356,7 @@
         "kind": "image",
         "metadata": "",
         "name": "character_2.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -365,7 +365,7 @@
         "kind": "image",
         "metadata": "",
         "name": "character_3.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": true
       },
       {
@@ -374,7 +374,7 @@
         "kind": "image",
         "metadata": "",
         "name": "character_4.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": true
       },
       {
@@ -383,7 +383,7 @@
         "kind": "image",
         "metadata": "",
         "name": "platforma-1.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": true
       },
       {
@@ -393,6 +393,33 @@
         "metadata": "",
         "name": "NewFile-1.png",
         "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tileset_1_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tileset_1_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tileset_1_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tileset_1_0.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "kasa-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "kasa-1.png",
+        "smoothed": false,
         "userAdded": true
       }
     ],
@@ -419,14 +446,14 @@
         "grid": false,
         "gridB": 255,
         "gridG": 180,
-        "gridHeight": 32,
+        "gridHeight": 16,
         "gridOffsetX": 0,
         "gridOffsetY": 0,
         "gridR": 158,
-        "gridWidth": 32,
-        "snap": true,
+        "gridWidth": 16,
+        "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.52
+        "zoomFactor": 1.216
       },
       "objectsGroups": [],
       "variables": [],
@@ -434,14 +461,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 68,
+          "height": 32,
           "layer": "",
           "locked": false,
           "name": "Player",
           "persistentUuid": "494b13e3-ee9c-4c98-92bc-e9d56e5ea55c",
-          "width": 68,
-          "x": 463,
-          "y": 323,
+          "width": 32,
+          "x": 78,
+          "y": 61,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -450,15 +477,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 88,
+          "height": 16,
           "layer": "",
           "locked": false,
-          "name": "NewObject",
-          "persistentUuid": "7148109a-011d-46e6-868f-88f14dea8694",
-          "width": 603,
-          "x": 65,
-          "y": 619,
-          "zOrder": 2,
+          "name": "grass",
+          "persistentUuid": "5d61be4a-cab5-46af-ae1c-e43b677405de",
+          "width": 608,
+          "x": 32,
+          "y": 176,
+          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -466,15 +493,63 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 32,
+          "height": 16,
+          "layer": "",
+          "locked": false,
+          "name": "grass",
+          "persistentUuid": "c07fd2ab-689c-4f89-8bbd-ff65842a1ee0",
+          "width": 144,
+          "x": 640,
+          "y": 80,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 208,
           "layer": "",
           "locked": false,
           "name": "NewObject",
-          "persistentUuid": "9e092aa0-a364-4c55-aafc-15a54815c6a5",
-          "width": 335,
-          "x": 784,
-          "y": 532,
-          "zOrder": 3,
+          "persistentUuid": "590d199e-83e7-4f4a-83a3-5abb23808d89",
+          "width": 608,
+          "x": 32,
+          "y": 192,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 304,
+          "layer": "",
+          "locked": false,
+          "name": "NewObject",
+          "persistentUuid": "aebf9ea4-0c27-4cc7-815c-60889075e67a",
+          "width": 144,
+          "x": 640,
+          "y": 96,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 16,
+          "layer": "",
+          "locked": false,
+          "name": "kasaCzyCosInnegoDoZbierania",
+          "persistentUuid": "1b483e3d-99a0-4b51-b53a-4155b6d711d9",
+          "width": 16,
+          "x": 432,
+          "y": 144,
+          "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -637,12 +712,12 @@
           ]
         },
         {
-          "height": 32,
-          "name": "NewObject",
+          "height": 16,
+          "name": "grass",
           "tags": "",
-          "texture": "NewFile-1.png",
+          "texture": "tileset_1_1.png",
           "type": "TiledSpriteObject::TiledSprite",
-          "width": 32,
+          "width": 16,
           "variables": [],
           "behaviors": [
             {
@@ -651,6 +726,63 @@
               "canBeGrabbed": true,
               "platformType": "NormalPlatform",
               "yGrabOffset": 0
+            }
+          ]
+        },
+        {
+          "height": 16,
+          "name": "NewObject",
+          "tags": "",
+          "texture": "tileset_1_0.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 16,
+          "variables": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ]
+        },
+        {
+          "name": "kasaCzyCosInnegoDoZbierania",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "kasa",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "kasa-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -872,6 +1004,41 @@
                 "Player",
                 "",
                 "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "kasaCzyCosInnegoDoZbierania",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "kasaCzyCosInnegoDoZbierania",
                 ""
               ],
               "subInstructions": []
