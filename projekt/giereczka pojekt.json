@@ -25,7 +25,7 @@
     "windowWidth": 420,
     "windowHeight": 262,
     "latestCompilationDirectory": "",
-    "maxFPS": 60,
+    "maxFPS": 160,
     "minFPS": 20,
     "verticalSync": false,
     "platformSpecificAssets": {
@@ -577,7 +577,7 @@
         "gridWidth": 16,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 1.048
+        "zoomFactor": 1.744
       },
       "objectsGroups": [],
       "variables": [],
@@ -799,7 +799,7 @@
           "name": "NewObject4",
           "persistentUuid": "39346c92-fa14-40d0-b124-e78640d0e9a2",
           "width": 16,
-          "x": 712,
+          "x": 720,
           "y": 64,
           "zOrder": 17,
           "numberProperties": [],
@@ -3025,6 +3025,52 @@
                 }
               ],
               "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "odblokowane hp",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "hp",
+                    ">=",
+                    "4"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "hp",
+                    "-",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
             }
           ],
           "parameters": []
@@ -3277,6 +3323,19 @@
                     "PlatformerObject"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjetTxt"
+                  },
+                  "parameters": [
+                    "NewObject4",
+                    "kieunek",
+                    "=",
+                    "\"left\""
+                  ],
+                  "subInstructions": []
                 }
               ],
               "actions": [
@@ -3289,6 +3348,92 @@
                     "hp",
                     "-",
                     "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "AddForceXY"
+                  },
+                  "parameters": [
+                    "Player",
+                    "-5000\n",
+                    "-6000",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "NewObject4",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "PlatformBehavior::IsJumping"
+                  },
+                  "parameters": [
+                    "Player",
+                    "PlatformerObject"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjetTxt"
+                  },
+                  "parameters": [
+                    "NewObject4",
+                    "kieunek",
+                    "=",
+                    "\"right\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "hp",
+                    "-",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "AddForceXY"
+                  },
+                  "parameters": [
+                    "Player",
+                    "5000\n",
+                    "-6000",
+                    "0"
                   ],
                   "subInstructions": []
                 }
