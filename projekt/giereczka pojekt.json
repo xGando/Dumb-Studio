@@ -1927,7 +1927,7 @@
                   },
                   "parameters": [
                     "NewObject4",
-                    "-60\n",
+                    "-90\n",
                     "0",
                     ""
                   ],
@@ -1963,7 +1963,7 @@
                   },
                   "parameters": [
                     "NewObject4",
-                    "60",
+                    "90",
                     "0",
                     ""
                   ],
@@ -2003,6 +2003,19 @@
                     "yes"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjetTxt"
+                  },
+                  "parameters": [
+                    "NewObject4",
+                    "kieunek",
+                    "=",
+                    "\"right\""
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": []
@@ -2036,6 +2049,19 @@
                   "parameters": [
                     "NewObject4",
                     ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjetTxt"
+                  },
+                  "parameters": [
+                    "NewObject4",
+                    "kieunek",
+                    "=",
+                    "\"left\""
                   ],
                   "subInstructions": []
                 }
