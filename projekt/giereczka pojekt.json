@@ -532,6 +532,20 @@
         "name": "potion-1.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "file": "FSEX300.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "FSEX300.ttf",
+        "userAdded": true
+      },
+      {
+        "file": "bez nazwy.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "bez nazwy.mp3",
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -567,7 +581,7 @@
       "title": "",
       "v": 209,
       "uiSettings": {
-        "grid": true,
+        "grid": false,
         "gridB": 255,
         "gridG": 180,
         "gridHeight": 16,
@@ -575,9 +589,9 @@
         "gridOffsetY": 0,
         "gridR": 158,
         "gridWidth": 16,
-        "snap": true,
+        "snap": false,
         "windowMask": false,
-        "zoomFactor": 1.744
+        "zoomFactor": 1.096
       },
       "objectsGroups": [],
       "variables": [],
@@ -751,8 +765,8 @@
           "name": "NewObject2",
           "persistentUuid": "c89e0411-bb43-4986-8ddc-9498488daf54",
           "width": 0,
-          "x": 82,
-          "y": 10,
+          "x": 96,
+          "y": 9,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
@@ -1400,7 +1414,7 @@
           "variables": [],
           "behaviors": [],
           "string": "sans łep:  \n",
-          "font": "PixelFJVerdana12pt.ttf",
+          "font": "FSEX300.ttf",
           "characterSize": 20,
           "color": {
             "b": 0,
@@ -2425,6 +2439,66 @@
       ],
       "events": [
         {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "zmieniłem też hitboxy postaci aby nie mogła lewitować na platformach znaczy na jej krańcach ",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "myślałem też nad tym aby zamiast napisu dać małą ikonkę czachy a po niej samą liczbę",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "pozdrawiam mamę",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "a te 8 hp ma zostać bo to są te dodatkowe tylko na pustej animacji  więc jakbyś chciał zmienić miejsce serc to pamiętaj a tych pięciu niewidzialnych ",
+          "comment2": ""
+        },
+        {
           "colorB": 228,
           "colorG": 176,
           "colorR": 74,
@@ -2626,6 +2700,29 @@
               "disabled": false,
               "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CentreCamera"
+                  },
+                  "parameters": [
+                    "",
+                    "Player",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
@@ -2667,30 +2764,23 @@
                   "subInstructions": []
                 }
               ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
+              "events": [
                 {
-                  "type": {
-                    "inverted": false,
-                    "value": "CentreCamera"
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
                   },
-                  "parameters": [
-                    "",
-                    "Player",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
+                  "comment": "próbowałem zrobić grafikę potki ale no za dużo pikseli dałem i teraz nie pasuje do reszty ",
+                  "comment2": ""
                 }
-              ],
-              "events": []
+              ]
             },
             {
               "disabled": false,
@@ -3070,7 +3160,23 @@
                   "subInstructions": []
                 }
               ],
-              "events": []
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "odblokowane hp jest od tego jakbyśmy dodali jakiś item czy inne gówno dzięki któremu możesz mieć więcej życia niż 3",
+                  "comment2": ""
+                }
+              ]
             }
           ],
           "parameters": []
@@ -3081,11 +3187,26 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "tak",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Przejebane te życie. Nie ważne co powiesz i tak będą ci matke ruchać.",
+              "comment2": ""
+            },
             {
               "disabled": false,
               "folded": false,
@@ -3359,13 +3480,58 @@
                   "parameters": [
                     "Player",
                     "-5000\n",
-                    "-6000",
+                    "-500",
                     "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "bez nazwy.mp3",
+                    "",
+                    "100",
+                    ""
                   ],
                   "subInstructions": []
                 }
               ],
-              "events": []
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "to chwilowe rozwiązanie     tak myślę...",
+                  "comment2": ""
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "bo przy dotknięciu tego kloca czerwonego traciło się całe życie bo za szybko się odejmuje więc zrobiłem aby po dotknięciu postać była odpychana tylko że wygląda to dość chujowo       ale no możesz spróbować to lepiej rozwiązać ",
+                  "comment2": ""
+                }
+              ]
             },
             {
               "disabled": false,
@@ -3432,13 +3598,43 @@
                   "parameters": [
                     "Player",
                     "5000\n",
-                    "-6000",
+                    "-500",
                     "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "bez nazwy.mp3",
+                    "",
+                    "100",
+                    ""
                   ],
                   "subInstructions": []
                 }
               ],
-              "events": []
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuaaaaaaaaaaaaaaaaaaaaaaaaaaauuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu",
+                  "comment2": ""
+                }
+              ]
             },
             {
               "disabled": false,
