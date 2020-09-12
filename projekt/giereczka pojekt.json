@@ -457,6 +457,27 @@
         "name": "gui_3.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "file": "../fonty/ARCADECLASSIC.TTF",
+        "kind": "font",
+        "metadata": "",
+        "name": "..\\fonty\\ARCADECLASSIC.TTF",
+        "userAdded": true
+      },
+      {
+        "file": "ARCADECLASSIC.TTF",
+        "kind": "font",
+        "metadata": "",
+        "name": "ARCADECLASSIC.TTF",
+        "userAdded": true
+      },
+      {
+        "file": "PixelFJVerdana12pt.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "PixelFJVerdana12pt.ttf",
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -479,7 +500,7 @@
       "title": "",
       "v": 209,
       "uiSettings": {
-        "grid": true,
+        "grid": false,
         "gridB": 255,
         "gridG": 180,
         "gridHeight": 16,
@@ -487,9 +508,9 @@
         "gridOffsetY": 0,
         "gridR": 158,
         "gridWidth": 16,
-        "snap": true,
+        "snap": false,
         "windowMask": false,
-        "zoomFactor": 1.936
+        "zoomFactor": 1.312
       },
       "objectsGroups": [],
       "variables": [],
@@ -1157,6 +1178,15 @@
               ]
             }
           ]
+        },
+        {
+          "name": "NewObject2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": []
         }
       ],
       "events": [
@@ -1418,6 +1448,27 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": false,
+          "name": "GUI",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
+          "events": []
         }
       ],
       "layers": [
