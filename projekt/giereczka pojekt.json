@@ -546,6 +546,42 @@
         "metadata": "",
         "name": "bez nazwy.mp3",
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tileset_2_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tileset_2_0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tileset_2_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tileset_2_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tileset_2_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tileset_2_4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tileset_2_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tileset_2_3.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -581,7 +617,7 @@
       "title": "",
       "v": 209,
       "uiSettings": {
-        "grid": false,
+        "grid": true,
         "gridB": 255,
         "gridG": 180,
         "gridHeight": 16,
@@ -589,9 +625,9 @@
         "gridOffsetY": 0,
         "gridR": 158,
         "gridWidth": 16,
-        "snap": false,
+        "snap": true,
         "windowMask": false,
-        "zoomFactor": 1.096
+        "zoomFactor": 0.856
       },
       "objectsGroups": [],
       "variables": [],
@@ -979,6 +1015,70 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 149,
+          "layer": "",
+          "locked": false,
+          "name": "drabina",
+          "persistentUuid": "82b33ed5-2cb0-407c-80ca-4b8f2a829043",
+          "width": 16,
+          "x": 288,
+          "y": 32,
+          "zOrder": 28,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 16,
+          "layer": "",
+          "locked": false,
+          "name": "potion",
+          "persistentUuid": "361b7666-9d76-4407-8fb9-d168d55ef946",
+          "width": 16,
+          "x": 736,
+          "y": -80,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "locked": false,
+          "name": "chmurka",
+          "persistentUuid": "ba763896-8b17-4dc1-9ff7-c522fdadba35",
+          "width": 64,
+          "x": 208,
+          "y": -160,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "locked": false,
+          "name": "chmurka",
+          "persistentUuid": "43cc78db-78aa-45f2-9bee-bd552e780f49",
+          "width": 64,
+          "x": 624,
+          "y": -176,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -1288,6 +1388,45 @@
           ]
         },
         {
+          "name": "krzak",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "tileset_1_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "name": "kasaCzyCosInnegoDoZbierania",
           "tags": "",
           "type": "Sprite",
@@ -1346,83 +1485,6 @@
           ]
         },
         {
-          "name": "krzak",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "tileset_1_4.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "bold": false,
-          "italic": false,
-          "name": "NewObject2",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [],
-          "string": "100000",
-          "font": "PixelFJVerdana12pt.ttf",
-          "characterSize": 20,
-          "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
-          }
-        },
-        {
-          "bold": false,
-          "italic": false,
-          "name": "NewObject3",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [],
-          "string": "sans łep:  \n",
-          "font": "FSEX300.ttf",
-          "characterSize": 20,
-          "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
-          }
-        },
-        {
           "name": "zlotySansLep",
           "tags": "",
           "type": "Sprite",
@@ -1479,6 +1541,44 @@
               ]
             }
           ]
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "NewObject2",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "100000",
+          "font": "PixelFJVerdana12pt.ttf",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "NewObject3",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "sans łep:  \n",
+          "font": "FSEX300.ttf",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
         },
         {
           "name": "NewObject4",
@@ -2435,6 +2535,63 @@
               ]
             }
           ]
+        },
+        {
+          "height": 16,
+          "name": "drabina",
+          "tags": "",
+          "texture": "tileset_2_0.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 16,
+          "variables": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "Ladder",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ]
+        },
+        {
+          "name": "chmurka",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "tileset_2_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -2824,7 +2981,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "GUI",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -3029,7 +3186,7 @@
                   "parameters": [
                     "hp3",
                     "=",
-                    "2"
+                    "1"
                   ],
                   "subInstructions": []
                 },
@@ -3075,7 +3232,7 @@
                   "parameters": [
                     "hp2",
                     "=",
-                    "2"
+                    "1"
                   ],
                   "subInstructions": []
                 }
@@ -3109,7 +3266,7 @@
                   "parameters": [
                     "hp",
                     "=",
-                    "2"
+                    "1"
                   ],
                   "subInstructions": []
                 }
