@@ -478,13 +478,27 @@
         "metadata": "",
         "name": "PixelFJVerdana12pt.ttf",
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gui_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gui_1.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
   },
   "objects": [],
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "name": "sans łep",
+      "value": ""
+    }
+  ],
   "layouts": [
     {
       "b": 209,
@@ -510,7 +524,7 @@
         "gridWidth": 16,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 1.312
+        "zoomFactor": 3.208
       },
       "objectsGroups": [],
       "variables": [],
@@ -703,6 +717,54 @@
           "x": 48,
           "y": 240,
           "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "GUI",
+          "locked": false,
+          "name": "NewObject2",
+          "persistentUuid": "c89e0411-bb43-4986-8ddc-9498488daf54",
+          "width": 0,
+          "x": 82,
+          "y": 10,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "GUI",
+          "locked": false,
+          "name": "NewObject3",
+          "persistentUuid": "7cca0db1-ae74-42be-b47f-012cca93a9c7",
+          "width": 0,
+          "x": 7,
+          "y": 10,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "zlotySansLep",
+          "persistentUuid": "f492e1bd-c071-4302-9729-05fadb23a5cf",
+          "width": 0,
+          "x": 467,
+          "y": 160,
+          "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1180,13 +1242,100 @@
           ]
         },
         {
+          "bold": false,
+          "italic": false,
           "name": "NewObject2",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "100000",
+          "font": "PixelFJVerdana12pt.ttf",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "NewObject3",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "sans łep:  \n",
+          "font": "PixelFJVerdana12pt.ttf",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "name": "zlotySansLep",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
           "behaviors": [],
-          "animations": []
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "gui_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 2
+                          },
+                          {
+                            "x": 14,
+                            "y": 2
+                          },
+                          {
+                            "x": 14,
+                            "y": 14
+                          },
+                          {
+                            "x": 3,
+                            "y": 14
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -1410,7 +1559,21 @@
                 }
               ],
               "events": []
-            },
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": false,
+          "name": "GUI",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
             {
               "disabled": false,
               "folded": false,
@@ -1442,33 +1605,92 @@
                     ""
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "sans łep",
+                    "+",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "NewObject2",
+                    "=",
+                    "GlobalVariableString(sans łep)"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "zlotySansLep",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "zlotySansLep",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "sans łep",
+                    "+",
+                    "10"
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": []
             }
           ],
           "parameters": []
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "disabled": false,
-          "folded": false,
-          "name": "GUI",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [],
-          "parameters": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [],
-          "events": []
         }
       ],
       "layers": [
