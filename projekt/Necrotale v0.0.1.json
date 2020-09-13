@@ -875,7 +875,7 @@
         "gridWidth": 16,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 1.114
+        "zoomFactor": 2.026
       },
       "objectsGroups": [],
       "variables": [],
@@ -2479,10 +2479,10 @@
                         "y": 0
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 8.25142,
+                        "y": 8.23864
                       },
                       "customCollisionMask": [
                         [
@@ -2527,10 +2527,10 @@
                         "y": 0
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 8.25142,
+                        "y": 8.23864
                       },
                       "customCollisionMask": [
                         [
@@ -2563,10 +2563,10 @@
                         "y": 0
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 8.25142,
+                        "y": 8.23864
                       },
                       "customCollisionMask": [
                         [
@@ -2602,7 +2602,7 @@
                   "timeBetweenFrames": 0.1,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "character_3.png",
                       "points": [],
                       "originPoint": {
@@ -2611,12 +2611,31 @@
                         "y": 0
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 8.25142,
+                        "y": 8.23864
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 0
+                          },
+                          {
+                            "x": 13,
+                            "y": 0
+                          },
+                          {
+                            "x": 13,
+                            "y": 16
+                          },
+                          {
+                            "x": 3,
+                            "y": 16
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -2631,7 +2650,7 @@
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "character_4.png",
                       "points": [],
                       "originPoint": {
@@ -2640,12 +2659,31 @@
                         "y": 0
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 8.25142,
+                        "y": 8.23864
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 0
+                          },
+                          {
+                            "x": 13,
+                            "y": 0
+                          },
+                          {
+                            "x": 13,
+                            "y": 16
+                          },
+                          {
+                            "x": 3,
+                            "y": 16
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -2657,10 +2695,10 @@
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.15,
+                  "timeBetweenFrames": 0.1111,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "attack-1-0.png",
                       "points": [],
                       "originPoint": {
@@ -2669,15 +2707,34 @@
                         "y": 0
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 8.25142,
+                        "y": 8.23864
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 0
+                          },
+                          {
+                            "x": 13,
+                            "y": 0
+                          },
+                          {
+                            "x": 13,
+                            "y": 16
+                          },
+                          {
+                            "x": 3,
+                            "y": 16
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "attack-2-0.png",
                       "points": [],
                       "originPoint": {
@@ -2686,15 +2743,34 @@
                         "y": 0
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 8.25142,
+                        "y": 8.23864
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 0
+                          },
+                          {
+                            "x": 13,
+                            "y": 0
+                          },
+                          {
+                            "x": 13,
+                            "y": 16
+                          },
+                          {
+                            "x": 3,
+                            "y": 16
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "attack-3-0.png",
                       "points": [],
                       "originPoint": {
@@ -2703,12 +2779,31 @@
                         "y": 0
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 8.25142,
+                        "y": 8.23864
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 0
+                          },
+                          {
+                            "x": 13,
+                            "y": 0
+                          },
+                          {
+                            "x": 13,
+                            "y": 16
+                          },
+                          {
+                            "x": 3,
+                            "y": 16
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -2723,7 +2818,7 @@
                   "timeBetweenFrames": 0.12,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "character_attack_3.png",
                       "points": [],
                       "originPoint": {
@@ -2732,12 +2827,31 @@
                         "y": 0
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 8.25142,
+                        "y": 8.23864
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 0
+                          },
+                          {
+                            "x": 13,
+                            "y": 0
+                          },
+                          {
+                            "x": 13,
+                            "y": 16
+                          },
+                          {
+                            "x": 3,
+                            "y": 16
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -5682,7 +5796,7 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "no wyglada to chujowo, dziala tez tak srednio ale jest to jakies rozwiazanie, jak chcesz to mozesz nad tym popracowac",
+                      "comment": "kamera teraz nie dostaje raka kiedy atakujesz chyba że spamisz guzik i trzymanie ctrl nie powoduje że możesz pozostać w animacji ataku ",
                       "comment2": ""
                     }
                   ]
