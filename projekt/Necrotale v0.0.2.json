@@ -7,14 +7,13 @@
     "revision": 0
   },
   "properties": {
-    "adMobAppId": "",
     "adaptGameResolutionAtRuntime": true,
     "folderProject": false,
     "linuxExecutableFilename": "",
     "macExecutableFilename": "",
     "orientation": "landscape",
     "packageName": "com.example.gamename",
-    "projectFile": "C:\\Users\\Patryk Wyderka\\Desktop\\Dumb Studio\\Dumb-Studio\\projekt\\Necrotale v0.0.2.json",
+    "projectFile": "E:\\dumb studio\\Dumb-Studio\\projekt\\Necrotale v0.0.2.json",
     "scaleMode": "nearest",
     "sizeOnStartupMode": "adaptWidth",
     "useExternalSourceFiles": false,
@@ -57,6 +56,7 @@
     "loadingScreen": {
       "showGDevelopSplash": true
     },
+    "extensionProperties": [],
     "extensions": [
       {
         "name": "BuiltinObject"
@@ -920,6 +920,20 @@
         "name": "fallattack-2.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "file": "C:/Users/HariPota/Downloads/How to gangster 3.mp4",
+        "kind": "video",
+        "metadata": "",
+        "name": "C:\\Users\\HariPota\\Downloads\\How to gangster 3.mp4",
+        "userAdded": false
+      },
+      {
+        "file": "How to gangster 3.mp4",
+        "kind": "video",
+        "metadata": "",
+        "name": "How to gangster 3.mp4",
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -992,6 +1006,7 @@
           "layer": "",
           "locked": false,
           "name": "Player",
+          "persistentUuid": "8350229c-bac1-413a-8b4a-5ade615f5c1d",
           "width": 16,
           "x": 78,
           "y": 61,
@@ -1007,6 +1022,7 @@
           "layer": "",
           "locked": false,
           "name": "grass",
+          "persistentUuid": "edbc8b17-a792-4fe5-8a19-5d2c4c72fa92",
           "width": 608,
           "x": 32,
           "y": 176,
@@ -1022,6 +1038,7 @@
           "layer": "",
           "locked": false,
           "name": "grass",
+          "persistentUuid": "db9ba49c-6df4-4525-8536-6c3b22803755",
           "width": 320,
           "x": 640,
           "y": 80,
@@ -1037,6 +1054,7 @@
           "layer": "",
           "locked": false,
           "name": "dirt",
+          "persistentUuid": "968295b8-0fc9-4f5f-9799-308fffdb96e5",
           "width": 608,
           "x": 32,
           "y": 192,
@@ -1052,6 +1070,7 @@
           "layer": "",
           "locked": false,
           "name": "dirt",
+          "persistentUuid": "ebcae652-7ac3-41d6-ad5b-3f4429c2fb4c",
           "width": 144,
           "x": 1312,
           "y": 208,
@@ -1067,6 +1086,7 @@
           "layer": "",
           "locked": false,
           "name": "grass",
+          "persistentUuid": "e090f8db-d0e4-48dd-9193-d3eab6820afb",
           "width": 48,
           "x": 880,
           "y": -16,
@@ -1082,6 +1102,7 @@
           "layer": "",
           "locked": false,
           "name": "grass",
+          "persistentUuid": "6824d645-4737-4c96-b5f6-dabf6db557cf",
           "width": 128,
           "x": 272,
           "y": 96,
@@ -1097,6 +1118,7 @@
           "layer": "",
           "locked": false,
           "name": "bush",
+          "persistentUuid": "687cb3c2-108f-4eed-b782-e37de7467596",
           "width": 16,
           "x": 368,
           "y": 160,
@@ -1112,6 +1134,7 @@
           "layer": "GUI",
           "locked": false,
           "name": "hp",
+          "persistentUuid": "c22cbead-b083-4d03-9fb4-cf275ee92929",
           "width": 0,
           "x": 16,
           "y": 48,
@@ -1127,6 +1150,7 @@
           "layer": "GUI",
           "locked": false,
           "name": "score",
+          "persistentUuid": "3870bd5f-3bfa-4f1c-8e91-7f387f5bc940",
           "width": 0,
           "x": 48,
           "y": 18,
@@ -1142,6 +1166,7 @@
           "layer": "",
           "locked": false,
           "name": "test_enemy",
+          "persistentUuid": "4042b1de-185c-4392-8d80-93440c4052e2",
           "width": 16,
           "x": 752,
           "y": 64,
@@ -1157,6 +1182,7 @@
           "layer": "",
           "locked": false,
           "name": "right",
+          "persistentUuid": "2068a07f-e978-47f8-9118-f71f39cc5908",
           "width": 0,
           "x": 640,
           "y": 64,
@@ -1172,6 +1198,7 @@
           "layer": "",
           "locked": false,
           "name": "left",
+          "persistentUuid": "6a860212-0710-4091-b1a2-668ca0bb25b3",
           "width": 0,
           "x": 944,
           "y": 64,
@@ -1187,6 +1214,7 @@
           "layer": "GUI",
           "locked": false,
           "name": "hp2",
+          "persistentUuid": "e9ade351-6d96-4c4e-b5d3-58a25656097f",
           "width": 0,
           "x": 32,
           "y": 48,
@@ -1202,6 +1230,7 @@
           "layer": "GUI",
           "locked": false,
           "name": "hp3",
+          "persistentUuid": "50195cd7-4e4b-46c9-bdd5-f6fc797dbe84",
           "width": 0,
           "x": 48,
           "y": 48,
@@ -1217,6 +1246,7 @@
           "layer": "GUI",
           "locked": false,
           "name": "hp4",
+          "persistentUuid": "e091fd5c-204d-44c4-ab21-625151eea0c5",
           "width": 0,
           "x": 64,
           "y": 48,
@@ -1232,6 +1262,7 @@
           "layer": "GUI",
           "locked": false,
           "name": "hp5",
+          "persistentUuid": "4f29ad25-f796-4ad9-b108-bce4ef07461e",
           "width": 0,
           "x": 96,
           "y": 48,
@@ -1247,6 +1278,7 @@
           "layer": "GUI",
           "locked": false,
           "name": "hp6",
+          "persistentUuid": "45b791fa-08fb-48c1-91f5-aae66513999a",
           "width": 0,
           "x": 80,
           "y": 48,
@@ -1262,6 +1294,7 @@
           "layer": "GUI",
           "locked": false,
           "name": "hp7",
+          "persistentUuid": "a821421a-a850-45a3-a507-a528a763a460",
           "width": 0,
           "x": 112,
           "y": 240,
@@ -1277,6 +1310,7 @@
           "layer": "GUI",
           "locked": false,
           "name": "hp8",
+          "persistentUuid": "3ed80c1e-6c1d-411e-ae73-fe54cd8b0f2d",
           "width": 0,
           "x": 112,
           "y": 48,
@@ -1292,6 +1326,7 @@
           "layer": "",
           "locked": false,
           "name": "ladder",
+          "persistentUuid": "4b40a26a-9ca8-4e46-8ae7-230888aa8d6c",
           "width": 16,
           "x": 720,
           "y": -64,
@@ -1307,6 +1342,7 @@
           "layer": "",
           "locked": false,
           "name": "hppotion",
+          "persistentUuid": "4fba5c14-c218-47d7-97df-54cacf6a9a09",
           "width": 16,
           "x": 736,
           "y": -80,
@@ -1322,6 +1358,7 @@
           "layer": "",
           "locked": false,
           "name": "cloud1",
+          "persistentUuid": "9e4edc28-382d-4e2f-9df7-12f2ad50a570",
           "width": 80,
           "x": 208,
           "y": -160,
@@ -1337,6 +1374,7 @@
           "layer": "",
           "locked": false,
           "name": "cloud1",
+          "persistentUuid": "686426ac-c4fe-4104-b090-125faccb7870",
           "width": 96,
           "x": 592,
           "y": -224,
@@ -1352,6 +1390,7 @@
           "layer": "GUI",
           "locked": false,
           "name": "skull",
+          "persistentUuid": "71b692e3-7b9b-41e9-bb65-227a5a28ffee",
           "width": 32,
           "x": 13,
           "y": 11,
@@ -1367,6 +1406,7 @@
           "layer": "",
           "locked": false,
           "name": "bush",
+          "persistentUuid": "70727c38-ac9b-454d-b43f-c273e193e67d",
           "width": 0,
           "x": 832,
           "y": 64,
@@ -1382,6 +1422,7 @@
           "layer": "",
           "locked": false,
           "name": "bush",
+          "persistentUuid": "b66937a1-769d-422c-bea3-6d14d7a64f1b",
           "width": 0,
           "x": 560,
           "y": 160,
@@ -1397,6 +1438,7 @@
           "layer": "",
           "locked": false,
           "name": "grass",
+          "persistentUuid": "5fd983b7-713b-40cd-b322-8cb4f4197c29",
           "width": 352,
           "x": 960,
           "y": 96,
@@ -1412,6 +1454,7 @@
           "layer": "",
           "locked": false,
           "name": "dirt",
+          "persistentUuid": "904ec2dd-8987-4b23-8dd2-65a7b6309f05",
           "width": 128,
           "x": 960,
           "y": 112,
@@ -1427,6 +1470,7 @@
           "layer": "",
           "locked": false,
           "name": "dirt",
+          "persistentUuid": "0208998b-6856-4a07-a2d9-f2bae15ab861",
           "width": 272,
           "x": 1184,
           "y": 272,
@@ -1442,6 +1486,7 @@
           "layer": "",
           "locked": false,
           "name": "dirt",
+          "persistentUuid": "ecb82278-b52b-4564-bfbd-d01505c624b3",
           "width": 224,
           "x": 1088,
           "y": 112,
@@ -1457,6 +1502,7 @@
           "layer": "",
           "locked": false,
           "name": "dirt_wall",
+          "persistentUuid": "aea26634-c586-43aa-9751-ef5e88e22a48",
           "width": 96,
           "x": 1088,
           "y": 192,
@@ -1472,6 +1518,7 @@
           "layer": "",
           "locked": false,
           "name": "dirt_wall",
+          "persistentUuid": "250ecd13-ed4a-423d-8c58-0f54fc7e7d51",
           "width": 224,
           "x": 1088,
           "y": 128,
@@ -1487,6 +1534,7 @@
           "layer": "",
           "locked": false,
           "name": "grass",
+          "persistentUuid": "dc95efac-5e9a-494a-ba7a-dcabe96bf43e",
           "width": 64,
           "x": 736,
           "y": -64,
@@ -1502,6 +1550,7 @@
           "layer": "",
           "locked": false,
           "name": "grass",
+          "persistentUuid": "28d9bc5d-7b1e-485d-af82-4baaf5bacc04",
           "width": 128,
           "x": 432,
           "y": 32,
@@ -1517,6 +1566,7 @@
           "layer": "",
           "locked": false,
           "name": "dirt",
+          "persistentUuid": "4c138ec5-05e5-492e-9dcd-c1e04c2299be",
           "width": 96,
           "x": 288,
           "y": 112,
@@ -1532,6 +1582,7 @@
           "layer": "",
           "locked": false,
           "name": "dirt",
+          "persistentUuid": "dcec7a18-d81c-4865-8893-de6606a07cb7",
           "width": 96,
           "x": 448,
           "y": 48,
@@ -1547,6 +1598,7 @@
           "layer": "",
           "locked": false,
           "name": "platform",
+          "persistentUuid": "0d1ca439-d1cf-49f6-9c87-127e3bf75bdc",
           "width": 48,
           "x": 384,
           "y": 32,
@@ -1562,6 +1614,7 @@
           "layer": "",
           "locked": false,
           "name": "platform",
+          "persistentUuid": "a035d96e-7219-4eda-a652-af345666d8a0",
           "width": 48,
           "x": 224,
           "y": 96,
@@ -1577,6 +1630,7 @@
           "layer": "",
           "locked": false,
           "name": "platform",
+          "persistentUuid": "db0b80af-a840-458c-9b8e-26912eaa2051",
           "width": 48,
           "x": 560,
           "y": 32,
@@ -1592,6 +1646,7 @@
           "layer": "",
           "locked": false,
           "name": "platform",
+          "persistentUuid": "c084ec0c-94ee-4ad2-b722-064ca6e3c537",
           "width": 48,
           "x": 400,
           "y": 96,
@@ -1607,6 +1662,7 @@
           "layer": "",
           "locked": false,
           "name": "wooden_pale",
+          "persistentUuid": "064e9c29-6280-4aab-9800-40400fc8a73d",
           "width": 16,
           "x": 240,
           "y": 96,
@@ -1622,6 +1678,7 @@
           "layer": "",
           "locked": false,
           "name": "wooden_pale",
+          "persistentUuid": "6a91e79c-a9c2-4635-8425-aa195a94f1d4",
           "width": 16,
           "x": 576,
           "y": 32,
@@ -1637,6 +1694,7 @@
           "layer": "",
           "locked": false,
           "name": "wooden_pale",
+          "persistentUuid": "b21fd904-c8b7-4ec5-a995-5618302bf7f6",
           "width": 16,
           "x": 416,
           "y": 96,
@@ -1652,6 +1710,7 @@
           "layer": "",
           "locked": false,
           "name": "wooden_pale",
+          "persistentUuid": "0aead9f1-9943-4bf2-860d-75b8ccc3e6d7",
           "width": 16,
           "x": 400,
           "y": 32,
@@ -1667,6 +1726,7 @@
           "layer": "",
           "locked": false,
           "name": "dirt",
+          "persistentUuid": "3f0d539d-98d9-4217-ad15-fd95e1a60c10",
           "width": 320,
           "x": 640,
           "y": 96,
@@ -1682,6 +1742,7 @@
           "layer": "",
           "locked": false,
           "name": "stone",
+          "persistentUuid": "24b23d38-502e-4acc-a5ef-9cf04b1b983a",
           "width": 320,
           "x": 640,
           "y": 208,
@@ -1697,6 +1758,7 @@
           "layer": "",
           "locked": false,
           "name": "dirt_wall",
+          "persistentUuid": "8e8bcf27-5d67-4bdd-93a0-dfe0d4601646",
           "width": 320,
           "x": 640,
           "y": 112,
@@ -1712,6 +1774,7 @@
           "layer": "",
           "locked": false,
           "name": "skull",
+          "persistentUuid": "22f1e6cc-d20d-4327-b5af-8d26cc3b707b",
           "width": 16,
           "x": 848,
           "y": 176,
@@ -1727,6 +1790,7 @@
           "layer": "",
           "locked": false,
           "name": "skull",
+          "persistentUuid": "997516a3-476e-4a87-bf60-b998b7a1b4f0",
           "width": 0,
           "x": 864,
           "y": 176,
@@ -1742,6 +1806,7 @@
           "layer": "",
           "locked": false,
           "name": "skull",
+          "persistentUuid": "470ea854-5afd-4889-ab52-eefa3e9d8183",
           "width": 0,
           "x": 880,
           "y": 176,
@@ -1757,6 +1822,7 @@
           "layer": "",
           "locked": false,
           "name": "skull",
+          "persistentUuid": "207a24cc-d98a-47c2-8f3d-3cea3fa3f560",
           "width": 0,
           "x": 880,
           "y": 192,
@@ -1772,6 +1838,7 @@
           "layer": "",
           "locked": false,
           "name": "skull",
+          "persistentUuid": "5d4032ae-49d5-45ef-bc7a-b721bbc40525",
           "width": 0,
           "x": 864,
           "y": 192,
@@ -1787,6 +1854,7 @@
           "layer": "",
           "locked": false,
           "name": "skull",
+          "persistentUuid": "e6ab02fb-76db-4c5b-a07f-370b04189863",
           "width": 16,
           "x": 848,
           "y": 192,
@@ -1802,6 +1870,7 @@
           "layer": "",
           "locked": false,
           "name": "right",
+          "persistentUuid": "4c890fe6-46c1-4b63-b5a3-6044d8c2f7bc",
           "width": 0,
           "x": 624,
           "y": 192,
@@ -1817,6 +1886,7 @@
           "layer": "",
           "locked": false,
           "name": "left",
+          "persistentUuid": "efb01ddf-f6ab-4873-a779-507a8188ebf8",
           "width": 0,
           "x": 960,
           "y": 192,
@@ -1832,6 +1902,7 @@
           "layer": "",
           "locked": false,
           "name": "test_enemy",
+          "persistentUuid": "327d2842-eeef-4f4c-9041-9e0037aedd15",
           "width": 16,
           "x": 784,
           "y": 192,
@@ -1847,6 +1918,7 @@
           "layer": "",
           "locked": false,
           "name": "skull",
+          "persistentUuid": "f2c1262c-88de-4650-a581-5234f5e92787",
           "width": 0,
           "x": 496,
           "y": 16,
@@ -1862,6 +1934,7 @@
           "layer": "",
           "locked": false,
           "name": "skull",
+          "persistentUuid": "c6987775-99a5-41e0-ab20-1112383f6681",
           "width": 0,
           "x": 464,
           "y": 16,
@@ -1877,6 +1950,7 @@
           "layer": "",
           "locked": false,
           "name": "skull",
+          "persistentUuid": "f0f45c52-2db9-429d-ad98-c4d5ed044b78",
           "width": 0,
           "x": 480,
           "y": 16,
@@ -1892,6 +1966,7 @@
           "layer": "",
           "locked": false,
           "name": "goldenskull",
+          "persistentUuid": "33883d03-8a71-42d6-af2e-f55b18293b00",
           "width": 0,
           "x": 896,
           "y": -32,
@@ -1907,6 +1982,7 @@
           "layer": "",
           "locked": false,
           "name": "skull",
+          "persistentUuid": "8c09efd9-7afe-44ea-b004-8fb4edf3e2c9",
           "width": 0,
           "x": 1088,
           "y": 80,
@@ -1922,6 +1998,7 @@
           "layer": "",
           "locked": false,
           "name": "skull",
+          "persistentUuid": "53b09b16-7ff9-4916-99da-8fc66904578e",
           "width": 0,
           "x": 1056,
           "y": 80,
@@ -1937,6 +2014,7 @@
           "layer": "",
           "locked": false,
           "name": "skull",
+          "persistentUuid": "b98aef93-5a03-4e18-b1fb-7c223a5f4c4b",
           "width": 0,
           "x": 1072,
           "y": 80,
@@ -1952,6 +2030,7 @@
           "layer": "",
           "locked": false,
           "name": "goldenskull",
+          "persistentUuid": "09410b8e-452c-40ed-8a2f-465b752de22a",
           "width": 0,
           "x": 1104,
           "y": 80,
@@ -1967,6 +2046,7 @@
           "layer": "",
           "locked": false,
           "name": "goldenskull",
+          "persistentUuid": "fb1534bb-3ec5-498d-85ec-1e77f206f4c2",
           "width": 0,
           "x": 1088,
           "y": 256,
@@ -1982,6 +2062,7 @@
           "layer": "",
           "locked": false,
           "name": "test_enemy",
+          "persistentUuid": "97e525a5-5d61-41df-a6b1-1b006d7c88cb",
           "width": 16,
           "x": 1136,
           "y": 256,
@@ -1997,6 +2078,7 @@
           "layer": "",
           "locked": false,
           "name": "left",
+          "persistentUuid": "ab86a45c-fa0b-43bb-82c3-2abeea9eef31",
           "width": 0,
           "x": 1184,
           "y": 256,
@@ -2012,6 +2094,7 @@
           "layer": "",
           "locked": false,
           "name": "right",
+          "persistentUuid": "e38a473c-f5c5-4871-9639-868e84bd10c7",
           "width": 0,
           "x": 1072,
           "y": 256,
@@ -2027,6 +2110,7 @@
           "layer": "",
           "locked": false,
           "name": "bush",
+          "persistentUuid": "79d1d6fc-ca5f-4bde-a19b-6612f19a2759",
           "width": 0,
           "x": 1168,
           "y": 80,
@@ -2042,6 +2126,7 @@
           "layer": "",
           "locked": false,
           "name": "wooden_pale",
+          "persistentUuid": "302d62e6-4f76-49a8-8814-5b9bbffafd40",
           "width": 16,
           "x": 1328,
           "y": 96,
@@ -2057,6 +2142,7 @@
           "layer": "",
           "locked": false,
           "name": "platform",
+          "persistentUuid": "10adbe1e-ab96-4c4c-802b-0e89d2416a9e",
           "width": 48,
           "x": 1312,
           "y": 96,
@@ -2072,6 +2158,7 @@
           "layer": "",
           "locked": false,
           "name": "dirt",
+          "persistentUuid": "278e0b83-026c-4184-955f-dacbd41810dc",
           "width": 128,
           "x": 1184,
           "y": 192,
@@ -2087,6 +2174,7 @@
           "layer": "",
           "locked": false,
           "name": "grass",
+          "persistentUuid": "10fea8d3-d145-42f7-8b39-fe7c90381577",
           "width": 144,
           "x": 1312,
           "y": 192,
@@ -2102,6 +2190,7 @@
           "layer": "",
           "locked": false,
           "name": "stone",
+          "persistentUuid": "9f129197-5f5b-4a42-8584-95baff9bffdb",
           "width": 128,
           "x": 960,
           "y": 128,
@@ -2117,6 +2206,7 @@
           "layer": "",
           "locked": false,
           "name": "stone",
+          "persistentUuid": "30e453d0-49d3-4a85-b605-d1958404572a",
           "width": 96,
           "x": 1088,
           "y": 272,
@@ -2132,6 +2222,7 @@
           "layer": "",
           "locked": false,
           "name": "plant",
+          "persistentUuid": "a501b344-e94d-4079-a377-1ef87e657f85",
           "width": 16,
           "x": 1184,
           "y": 80,
@@ -2147,6 +2238,7 @@
           "layer": "",
           "locked": false,
           "name": "plant",
+          "persistentUuid": "a9c66dff-8069-4b29-bc87-da9042837cb5",
           "width": 0,
           "x": 1360,
           "y": 176,
@@ -2162,6 +2254,7 @@
           "layer": "",
           "locked": false,
           "name": "plant",
+          "persistentUuid": "8d6228a7-4f75-430b-8125-f149574b4ee0",
           "width": 32,
           "x": 768,
           "y": -80,
@@ -2177,6 +2270,7 @@
           "layer": "",
           "locked": false,
           "name": "plant",
+          "persistentUuid": "1b453343-a659-4b1d-b72b-e9c27e70ae98",
           "width": 32,
           "x": 848,
           "y": 64,
@@ -2192,6 +2286,7 @@
           "layer": "",
           "locked": false,
           "name": "plant",
+          "persistentUuid": "e6ed9779-5d76-4ec0-b44e-e0f02633cf4c",
           "width": 48,
           "x": 96,
           "y": 160,
@@ -2207,6 +2302,7 @@
           "layer": "",
           "locked": false,
           "name": "plant",
+          "persistentUuid": "a556810f-7595-438f-a3da-bc91f96f584b",
           "width": 0,
           "x": 320,
           "y": 160,
@@ -2222,6 +2318,7 @@
           "layer": "",
           "locked": false,
           "name": "plant",
+          "persistentUuid": "d33022cd-e28f-439a-965d-f9038d180fcd",
           "width": 0,
           "x": 304,
           "y": 80,
@@ -2237,6 +2334,7 @@
           "layer": "",
           "locked": false,
           "name": "plant",
+          "persistentUuid": "f89740dd-0b24-429b-9d4d-79138259a4a7",
           "width": 0,
           "x": 512,
           "y": 160,
@@ -2252,6 +2350,7 @@
           "layer": "",
           "locked": false,
           "name": "plant2",
+          "persistentUuid": "dd7c30f1-9dcb-466e-b892-6d9466d88249",
           "width": 0,
           "x": 304,
           "y": 160,
@@ -2267,6 +2366,7 @@
           "layer": "",
           "locked": false,
           "name": "plant2",
+          "persistentUuid": "d23cb653-a2b6-4cd8-aee9-f84a93eb76fe",
           "width": 0,
           "x": 544,
           "y": 160,
@@ -2282,6 +2382,7 @@
           "layer": "",
           "locked": false,
           "name": "plant2",
+          "persistentUuid": "f784f5cb-c208-453e-8b15-62f766cdbe2b",
           "width": 0,
           "x": 528,
           "y": 16,
@@ -2297,6 +2398,7 @@
           "layer": "",
           "locked": false,
           "name": "plant2",
+          "persistentUuid": "fa2357b5-a1c6-492d-bdfd-c88d3ad1ebd2",
           "width": 0,
           "x": 672,
           "y": 64,
@@ -2312,6 +2414,7 @@
           "layer": "",
           "locked": false,
           "name": "plant2",
+          "persistentUuid": "d12d166f-a349-462d-8a07-6162c5d8bbfb",
           "width": 0,
           "x": 800,
           "y": 64,
@@ -2327,6 +2430,7 @@
           "layer": "",
           "locked": false,
           "name": "plant2",
+          "persistentUuid": "77bfb02b-8c41-4183-9b77-4f7a88496741",
           "width": 0,
           "x": 912,
           "y": -32,
@@ -2342,6 +2446,7 @@
           "layer": "",
           "locked": false,
           "name": "plant2",
+          "persistentUuid": "f4f85d8d-1847-4046-b620-5f1a4709932c",
           "width": 0,
           "x": 992,
           "y": 80,
@@ -2357,6 +2462,7 @@
           "layer": "",
           "locked": false,
           "name": "plant2",
+          "persistentUuid": "7101c7c6-1b6a-426a-b6c2-bbeb506bc63d",
           "width": 0,
           "x": 1280,
           "y": 80,
@@ -2372,6 +2478,7 @@
           "layer": "",
           "locked": false,
           "name": "boxer",
+          "persistentUuid": "33e3fc3c-4db4-45ab-9388-4d9dd7d34c4b",
           "width": 18,
           "x": 187,
           "y": 158,
@@ -2387,6 +2494,7 @@
           "layer": "",
           "locked": false,
           "name": "hitbox",
+          "persistentUuid": "a9cf8691-3001-4df8-9682-d17e059cf3dd",
           "width": 0,
           "x": 92,
           "y": 63,
@@ -2402,6 +2510,7 @@
           "layer": "",
           "locked": false,
           "name": "nohit",
+          "persistentUuid": "6a59df5a-b050-4b5b-b43a-ff6fff4cad2c",
           "width": 0,
           "x": -1893,
           "y": -3420,
@@ -2417,6 +2526,7 @@
           "layer": "",
           "locked": false,
           "name": "wykrycie",
+          "persistentUuid": "e94b2cfe-799d-42c5-9e0c-f8b75b27b614",
           "width": 108,
           "x": 142,
           "y": 145,
@@ -2432,6 +2542,7 @@
           "layer": "",
           "locked": false,
           "name": "stop",
+          "persistentUuid": "7081b6dc-54f5-41f1-9ef2-321c9be5f339",
           "width": 33,
           "x": 179,
           "y": 146,
@@ -6361,6 +6472,11 @@
       ],
       "layers": [
         {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
           "name": "",
           "visibility": true,
           "cameras": [
@@ -6378,6 +6494,11 @@
           "effects": []
         },
         {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
           "name": "GUI",
           "visibility": true,
           "cameras": [],
@@ -6431,6 +6552,7 @@
           "layer": "",
           "locked": false,
           "name": "Player",
+          "persistentUuid": "bf8dc402-7634-4eae-853f-4b05f64f5728",
           "width": 16,
           "x": 78,
           "y": 61,
@@ -6446,6 +6568,7 @@
           "layer": "",
           "locked": false,
           "name": "grass",
+          "persistentUuid": "c2af0589-bca1-4096-9797-a376ed5d441d",
           "width": 608,
           "x": 32,
           "y": 176,
@@ -6461,6 +6584,7 @@
           "layer": "",
           "locked": false,
           "name": "grass",
+          "persistentUuid": "cbaf97dc-20ff-4267-9974-3e5d784aadc7",
           "width": 320,
           "x": 640,
           "y": 80,
@@ -6476,6 +6600,7 @@
           "layer": "",
           "locked": false,
           "name": "dirt",
+          "persistentUuid": "6dcc2d43-a2a9-46a3-9356-43b041f5b8f7",
           "width": 608,
           "x": 32,
           "y": 192,
@@ -6491,6 +6616,7 @@
           "layer": "",
           "locked": false,
           "name": "dirt",
+          "persistentUuid": "3606463c-dd83-4852-a408-288903c13305",
           "width": 144,
           "x": 1312,
           "y": 208,
@@ -6506,6 +6632,7 @@
           "layer": "",
           "locked": false,
           "name": "grass",
+          "persistentUuid": "de6b48c1-6dcf-4338-9c43-37d7a3b5e73a",
           "width": 48,
           "x": 880,
           "y": -16,
@@ -6521,6 +6648,7 @@
           "layer": "",
           "locked": false,
           "name": "grass",
+          "persistentUuid": "cdc47a4a-01fc-4538-936b-eb55e248aff3",
           "width": 128,
           "x": 272,
           "y": 96,
@@ -6536,6 +6664,7 @@
           "layer": "",
           "locked": false,
           "name": "bush",
+          "persistentUuid": "8d6a619c-7e2d-45de-8129-22dfc4f0c294",
           "width": 16,
           "x": 368,
           "y": 160,
@@ -6551,6 +6680,7 @@
           "layer": "GUI",
           "locked": false,
           "name": "hp",
+          "persistentUuid": "eeb42e2e-5923-4ca4-bbe6-55a8bde240f6",
           "width": 0,
           "x": 16,
           "y": 48,
@@ -6566,6 +6696,7 @@
           "layer": "GUI",
           "locked": false,
           "name": "score",
+          "persistentUuid": "2b14ec6b-1921-41fa-99da-accfa4e85622",
           "width": 0,
           "x": 48,
           "y": 18,
@@ -6581,6 +6712,7 @@
           "layer": "",
           "locked": false,
           "name": "test_enemy",
+          "persistentUuid": "59e81007-a667-4573-bdc6-71621df7b012",
           "width": 16,
           "x": 752,
           "y": 64,
@@ -6596,6 +6728,7 @@
           "layer": "",
           "locked": false,
           "name": "right",
+          "persistentUuid": "83fcf2e4-dbc9-4b53-aeab-8f58032d0bb3",
           "width": 0,
           "x": 640,
           "y": 64,
@@ -6611,6 +6744,7 @@
           "layer": "",
           "locked": false,
           "name": "left",
+          "persistentUuid": "a7e97ca2-41b6-40a6-b985-525392064374",
           "width": 0,
           "x": 944,
           "y": 64,
@@ -6626,6 +6760,7 @@
           "layer": "GUI",
           "locked": false,
           "name": "hp2",
+          "persistentUuid": "14a96378-82b1-419f-8048-c543befc15f0",
           "width": 0,
           "x": 32,
           "y": 48,
@@ -6641,6 +6776,7 @@
           "layer": "GUI",
           "locked": false,
           "name": "hp3",
+          "persistentUuid": "ed49ee2d-d87a-4ad1-9875-f6e704b72782",
           "width": 0,
           "x": 48,
           "y": 48,
@@ -6656,6 +6792,7 @@
           "layer": "GUI",
           "locked": false,
           "name": "hp4",
+          "persistentUuid": "821b0ab9-3812-42f5-ae61-a280fa6014fe",
           "width": 0,
           "x": 64,
           "y": 48,
@@ -6671,6 +6808,7 @@
           "layer": "GUI",
           "locked": false,
           "name": "hp5",
+          "persistentUuid": "7643dbbe-4d6c-4c16-951a-f0ae17197222",
           "width": 0,
           "x": 96,
           "y": 48,
@@ -6686,6 +6824,7 @@
           "layer": "GUI",
           "locked": false,
           "name": "hp6",
+          "persistentUuid": "989df5d6-c864-4a90-b57a-fc70f435ee5d",
           "width": 0,
           "x": 80,
           "y": 48,
@@ -6701,6 +6840,7 @@
           "layer": "GUI",
           "locked": false,
           "name": "hp7",
+          "persistentUuid": "46226cd0-8c9e-4ebb-8eb9-3b5c00e7e577",
           "width": 0,
           "x": 112,
           "y": 240,
@@ -6716,6 +6856,7 @@
           "layer": "GUI",
           "locked": false,
           "name": "hp8",
+          "persistentUuid": "af85159b-f008-408b-bb0c-681e450149e7",
           "width": 0,
           "x": 112,
           "y": 48,
@@ -6731,6 +6872,7 @@
           "layer": "",
           "locked": false,
           "name": "ladder",
+          "persistentUuid": "1344d9f1-27bd-4eaf-9ccc-6ce619530f96",
           "width": 16,
           "x": 720,
           "y": -64,
@@ -6746,6 +6888,7 @@
           "layer": "",
           "locked": false,
           "name": "hppotion",
+          "persistentUuid": "3f883046-2d14-4668-9bd2-fad25041706e",
           "width": 16,
           "x": 736,
           "y": -80,
@@ -6761,6 +6904,7 @@
           "layer": "",
           "locked": false,
           "name": "cloud1",
+          "persistentUuid": "2dc81b8e-70e5-418f-aef8-773cf92129e5",
           "width": 80,
           "x": 208,
           "y": -160,
@@ -6776,6 +6920,7 @@
           "layer": "",
           "locked": false,
           "name": "cloud1",
+          "persistentUuid": "a9559793-e175-478c-b430-b22dda56559b",
           "width": 96,
           "x": 592,
           "y": -224,
@@ -6791,6 +6936,7 @@
           "layer": "GUI",
           "locked": false,
           "name": "skull",
+          "persistentUuid": "1d99beb4-946f-41f9-b04d-a4be80848ff7",
           "width": 32,
           "x": 13,
           "y": 11,
@@ -6806,6 +6952,7 @@
           "layer": "",
           "locked": false,
           "name": "bush",
+          "persistentUuid": "0b16b41a-2b50-45f9-9891-9eca33a0b4b7",
           "width": 0,
           "x": 832,
           "y": 64,
@@ -6821,6 +6968,7 @@
           "layer": "",
           "locked": false,
           "name": "bush",
+          "persistentUuid": "3d06c91e-cd15-480b-916e-aab523e5b487",
           "width": 0,
           "x": 560,
           "y": 160,
@@ -6836,6 +6984,7 @@
           "layer": "",
           "locked": false,
           "name": "grass",
+          "persistentUuid": "003e3eab-ab4b-4e8e-a73e-a1dc00a2a740",
           "width": 352,
           "x": 960,
           "y": 96,
@@ -6851,6 +7000,7 @@
           "layer": "",
           "locked": false,
           "name": "dirt",
+          "persistentUuid": "e45bcd1f-e513-4c05-9b47-fb6bf683a708",
           "width": 128,
           "x": 960,
           "y": 112,
@@ -6866,6 +7016,7 @@
           "layer": "",
           "locked": false,
           "name": "dirt",
+          "persistentUuid": "ec8a02ef-b2c4-4b12-9920-15ac31417aa5",
           "width": 272,
           "x": 1184,
           "y": 272,
@@ -6881,6 +7032,7 @@
           "layer": "",
           "locked": false,
           "name": "dirt",
+          "persistentUuid": "95956ac5-d456-404e-a0bb-bf557b1456eb",
           "width": 224,
           "x": 1088,
           "y": 112,
@@ -6896,6 +7048,7 @@
           "layer": "",
           "locked": false,
           "name": "dirt_wall",
+          "persistentUuid": "53152606-bf67-4be6-a3f7-cb76882271f5",
           "width": 96,
           "x": 1088,
           "y": 192,
@@ -6911,6 +7064,7 @@
           "layer": "",
           "locked": false,
           "name": "dirt_wall",
+          "persistentUuid": "50a206fa-ce82-40ad-a639-d3999b6870fe",
           "width": 224,
           "x": 1088,
           "y": 128,
@@ -6926,6 +7080,7 @@
           "layer": "",
           "locked": false,
           "name": "grass",
+          "persistentUuid": "e405f9a6-be21-4606-af02-45ca4280cee3",
           "width": 64,
           "x": 736,
           "y": -64,
@@ -6941,6 +7096,7 @@
           "layer": "",
           "locked": false,
           "name": "grass",
+          "persistentUuid": "03743205-6ff3-4253-a610-7aa8e6267751",
           "width": 128,
           "x": 432,
           "y": 32,
@@ -6956,6 +7112,7 @@
           "layer": "",
           "locked": false,
           "name": "dirt",
+          "persistentUuid": "97c29117-a797-4519-a921-c2ea89a797b4",
           "width": 96,
           "x": 288,
           "y": 112,
@@ -6971,6 +7128,7 @@
           "layer": "",
           "locked": false,
           "name": "dirt",
+          "persistentUuid": "509d42c8-40bf-4af1-97bb-fc299af084ad",
           "width": 96,
           "x": 448,
           "y": 48,
@@ -6986,6 +7144,7 @@
           "layer": "",
           "locked": false,
           "name": "platform",
+          "persistentUuid": "e3626455-5f5a-4748-ae8b-1c8c3f85cce0",
           "width": 48,
           "x": 384,
           "y": 32,
@@ -7001,6 +7160,7 @@
           "layer": "",
           "locked": false,
           "name": "platform",
+          "persistentUuid": "1845fa57-66e1-42fe-8574-ca75359be5c8",
           "width": 48,
           "x": 224,
           "y": 96,
@@ -7016,6 +7176,7 @@
           "layer": "",
           "locked": false,
           "name": "platform",
+          "persistentUuid": "fc7c8c48-017c-4a61-afb7-bdbefb595271",
           "width": 48,
           "x": 560,
           "y": 32,
@@ -7031,6 +7192,7 @@
           "layer": "",
           "locked": false,
           "name": "platform",
+          "persistentUuid": "fb2e6dc4-9741-4d32-9713-c01784225fd2",
           "width": 48,
           "x": 400,
           "y": 96,
@@ -7046,6 +7208,7 @@
           "layer": "",
           "locked": false,
           "name": "wooden_pale",
+          "persistentUuid": "30f46453-3f74-4d9b-b024-f355f7f38bd5",
           "width": 16,
           "x": 240,
           "y": 96,
@@ -7061,6 +7224,7 @@
           "layer": "",
           "locked": false,
           "name": "wooden_pale",
+          "persistentUuid": "a9df13a8-bee5-4fb8-9bfe-70c0f76724c3",
           "width": 16,
           "x": 576,
           "y": 32,
@@ -7076,6 +7240,7 @@
           "layer": "",
           "locked": false,
           "name": "wooden_pale",
+          "persistentUuid": "098b6b17-d3ba-4cf6-97f8-1d6cee2eed96",
           "width": 16,
           "x": 416,
           "y": 96,
@@ -7091,6 +7256,7 @@
           "layer": "",
           "locked": false,
           "name": "wooden_pale",
+          "persistentUuid": "c9b5c36d-557d-4a5d-b33d-b247790f1fa6",
           "width": 16,
           "x": 400,
           "y": 32,
@@ -7106,6 +7272,7 @@
           "layer": "",
           "locked": false,
           "name": "dirt",
+          "persistentUuid": "5a6c003b-2338-4bc0-9913-44630aa0afe7",
           "width": 320,
           "x": 640,
           "y": 96,
@@ -7121,6 +7288,7 @@
           "layer": "",
           "locked": false,
           "name": "stone",
+          "persistentUuid": "7e8b27c5-428f-403d-bfb7-60f5ca18c480",
           "width": 320,
           "x": 640,
           "y": 208,
@@ -7136,6 +7304,7 @@
           "layer": "",
           "locked": false,
           "name": "dirt_wall",
+          "persistentUuid": "46b3bf09-fea6-48d7-9ca7-9e530266d085",
           "width": 320,
           "x": 640,
           "y": 112,
@@ -7151,6 +7320,7 @@
           "layer": "",
           "locked": false,
           "name": "skull",
+          "persistentUuid": "9784b20d-b12c-4a50-b1fa-67c8eb58e6ef",
           "width": 16,
           "x": 848,
           "y": 176,
@@ -7166,6 +7336,7 @@
           "layer": "",
           "locked": false,
           "name": "skull",
+          "persistentUuid": "df629810-0509-42bc-9498-7df8e70bf9cb",
           "width": 0,
           "x": 864,
           "y": 176,
@@ -7181,6 +7352,7 @@
           "layer": "",
           "locked": false,
           "name": "skull",
+          "persistentUuid": "d2b6f74f-73f1-4f2a-9987-2eb73bd098cb",
           "width": 0,
           "x": 880,
           "y": 176,
@@ -7196,6 +7368,7 @@
           "layer": "",
           "locked": false,
           "name": "skull",
+          "persistentUuid": "52687858-aa28-40f2-bebe-df59f8321f8e",
           "width": 0,
           "x": 880,
           "y": 192,
@@ -7211,6 +7384,7 @@
           "layer": "",
           "locked": false,
           "name": "skull",
+          "persistentUuid": "d8a673e4-90e2-4572-9274-d972d79ab448",
           "width": 0,
           "x": 864,
           "y": 192,
@@ -7226,6 +7400,7 @@
           "layer": "",
           "locked": false,
           "name": "skull",
+          "persistentUuid": "2139f02e-0129-4c04-892c-01e966e730c8",
           "width": 16,
           "x": 848,
           "y": 192,
@@ -7241,6 +7416,7 @@
           "layer": "",
           "locked": false,
           "name": "right",
+          "persistentUuid": "8256c4b1-bef7-46c9-8675-6b42f73b930f",
           "width": 0,
           "x": 624,
           "y": 192,
@@ -7256,6 +7432,7 @@
           "layer": "",
           "locked": false,
           "name": "left",
+          "persistentUuid": "be5c1734-d940-449a-893b-286757166d02",
           "width": 0,
           "x": 960,
           "y": 192,
@@ -7271,6 +7448,7 @@
           "layer": "",
           "locked": false,
           "name": "test_enemy",
+          "persistentUuid": "37fc8189-d70c-4897-8902-31407747d8ec",
           "width": 16,
           "x": 784,
           "y": 192,
@@ -7286,6 +7464,7 @@
           "layer": "",
           "locked": false,
           "name": "skull",
+          "persistentUuid": "07b5ee45-ee32-48c8-9de6-885927f0ad26",
           "width": 0,
           "x": 496,
           "y": 16,
@@ -7301,6 +7480,7 @@
           "layer": "",
           "locked": false,
           "name": "skull",
+          "persistentUuid": "7fa4882d-0e74-4a11-99e5-a6a647dbd639",
           "width": 0,
           "x": 464,
           "y": 16,
@@ -7316,6 +7496,7 @@
           "layer": "",
           "locked": false,
           "name": "skull",
+          "persistentUuid": "8f9a9217-4667-49ac-917f-4fe98287dc3b",
           "width": 0,
           "x": 480,
           "y": 16,
@@ -7331,6 +7512,7 @@
           "layer": "",
           "locked": false,
           "name": "goldenskull",
+          "persistentUuid": "31adb2b2-a9bd-40e1-a600-d8f148a5356c",
           "width": 0,
           "x": 896,
           "y": -32,
@@ -7346,6 +7528,7 @@
           "layer": "",
           "locked": false,
           "name": "skull",
+          "persistentUuid": "5ce7d514-ba57-465b-9918-1fee15a8bcff",
           "width": 0,
           "x": 1088,
           "y": 80,
@@ -7361,6 +7544,7 @@
           "layer": "",
           "locked": false,
           "name": "skull",
+          "persistentUuid": "bfd9adcf-2009-45f0-9e24-03e7e0744f45",
           "width": 0,
           "x": 1056,
           "y": 80,
@@ -7376,6 +7560,7 @@
           "layer": "",
           "locked": false,
           "name": "skull",
+          "persistentUuid": "098a40d8-1c94-4dd1-a34d-70e5a9a57d3f",
           "width": 0,
           "x": 1072,
           "y": 80,
@@ -7391,6 +7576,7 @@
           "layer": "",
           "locked": false,
           "name": "goldenskull",
+          "persistentUuid": "9c98b671-abd4-479a-9ff0-6705e154681a",
           "width": 0,
           "x": 1104,
           "y": 80,
@@ -7406,6 +7592,7 @@
           "layer": "",
           "locked": false,
           "name": "goldenskull",
+          "persistentUuid": "c960f277-3628-42f5-83f6-82e7f7887e3e",
           "width": 0,
           "x": 1088,
           "y": 256,
@@ -7421,6 +7608,7 @@
           "layer": "",
           "locked": false,
           "name": "test_enemy",
+          "persistentUuid": "66642c3d-6e04-4efe-ace8-1d3e6fc1370e",
           "width": 16,
           "x": 1136,
           "y": 256,
@@ -7436,6 +7624,7 @@
           "layer": "",
           "locked": false,
           "name": "left",
+          "persistentUuid": "bda4109f-53ee-45cf-99ee-081c579c3d3c",
           "width": 0,
           "x": 1184,
           "y": 256,
@@ -7451,6 +7640,7 @@
           "layer": "",
           "locked": false,
           "name": "right",
+          "persistentUuid": "e7d16cc6-e3f0-4f58-a344-85b494a76d13",
           "width": 0,
           "x": 1072,
           "y": 256,
@@ -7466,6 +7656,7 @@
           "layer": "",
           "locked": false,
           "name": "bush",
+          "persistentUuid": "f4fbffef-b7e2-4771-88a2-9d4ee16c76ef",
           "width": 0,
           "x": 1168,
           "y": 80,
@@ -7481,6 +7672,7 @@
           "layer": "",
           "locked": false,
           "name": "wooden_pale",
+          "persistentUuid": "85183770-c4d5-4311-9d8c-146b2b177a8f",
           "width": 16,
           "x": 1328,
           "y": 96,
@@ -7496,6 +7688,7 @@
           "layer": "",
           "locked": false,
           "name": "platform",
+          "persistentUuid": "d7ee2dad-d9d4-4282-93ba-641e65db12f0",
           "width": 48,
           "x": 1312,
           "y": 96,
@@ -7511,6 +7704,7 @@
           "layer": "",
           "locked": false,
           "name": "dirt",
+          "persistentUuid": "2d72ebf3-ab84-4e9a-bf54-5ab4dcc49d14",
           "width": 128,
           "x": 1184,
           "y": 192,
@@ -7526,6 +7720,7 @@
           "layer": "",
           "locked": false,
           "name": "grass",
+          "persistentUuid": "e3eb977f-9819-436a-989b-371611a5f34d",
           "width": 144,
           "x": 1312,
           "y": 192,
@@ -7541,6 +7736,7 @@
           "layer": "",
           "locked": false,
           "name": "stone",
+          "persistentUuid": "346c244d-8d6f-4736-bbe0-12ef731c4e7a",
           "width": 128,
           "x": 960,
           "y": 128,
@@ -7556,6 +7752,7 @@
           "layer": "",
           "locked": false,
           "name": "stone",
+          "persistentUuid": "32c1a977-22e7-4522-ad98-069835b48cfe",
           "width": 96,
           "x": 1088,
           "y": 272,
@@ -7571,6 +7768,7 @@
           "layer": "",
           "locked": false,
           "name": "plant",
+          "persistentUuid": "70ea5a32-8808-4b4f-8eef-7ca45604e06c",
           "width": 16,
           "x": 1184,
           "y": 80,
@@ -7586,6 +7784,7 @@
           "layer": "",
           "locked": false,
           "name": "plant",
+          "persistentUuid": "0babb4aa-b4cf-45a9-9a6b-12ab28c5164e",
           "width": 0,
           "x": 1360,
           "y": 176,
@@ -7601,6 +7800,7 @@
           "layer": "",
           "locked": false,
           "name": "plant",
+          "persistentUuid": "876030c7-2bef-4210-9387-69728c49ad55",
           "width": 32,
           "x": 768,
           "y": -80,
@@ -7616,6 +7816,7 @@
           "layer": "",
           "locked": false,
           "name": "plant",
+          "persistentUuid": "328d41a9-c222-4e8a-aeb3-871fc796bfe5",
           "width": 32,
           "x": 848,
           "y": 64,
@@ -7631,6 +7832,7 @@
           "layer": "",
           "locked": false,
           "name": "plant",
+          "persistentUuid": "bf296b8e-7fc3-4ad8-9958-71256952533b",
           "width": 48,
           "x": 96,
           "y": 160,
@@ -7646,6 +7848,7 @@
           "layer": "",
           "locked": false,
           "name": "plant",
+          "persistentUuid": "7969930b-dfaa-4ce9-b322-3a87d9f37ed4",
           "width": 0,
           "x": 320,
           "y": 160,
@@ -7661,6 +7864,7 @@
           "layer": "",
           "locked": false,
           "name": "plant",
+          "persistentUuid": "c1f7bd94-2ce5-4403-ae09-e4da38b42b43",
           "width": 0,
           "x": 304,
           "y": 80,
@@ -7676,6 +7880,7 @@
           "layer": "",
           "locked": false,
           "name": "plant",
+          "persistentUuid": "bea64438-4381-4149-85b3-c394f0d158e3",
           "width": 0,
           "x": 512,
           "y": 160,
@@ -7691,6 +7896,7 @@
           "layer": "",
           "locked": false,
           "name": "plant2",
+          "persistentUuid": "303af22f-a035-4c1b-9b84-046a0e74b711",
           "width": 0,
           "x": 304,
           "y": 160,
@@ -7706,6 +7912,7 @@
           "layer": "",
           "locked": false,
           "name": "plant2",
+          "persistentUuid": "f163077e-b903-490c-821b-cfddb499771b",
           "width": 0,
           "x": 544,
           "y": 160,
@@ -7721,6 +7928,7 @@
           "layer": "",
           "locked": false,
           "name": "plant2",
+          "persistentUuid": "4827d3f6-cda9-4675-8294-fed64f293a26",
           "width": 0,
           "x": 528,
           "y": 16,
@@ -7736,6 +7944,7 @@
           "layer": "",
           "locked": false,
           "name": "plant2",
+          "persistentUuid": "2d0c80f1-f04c-4c9f-9c35-7a4174aed205",
           "width": 0,
           "x": 672,
           "y": 64,
@@ -7751,6 +7960,7 @@
           "layer": "",
           "locked": false,
           "name": "plant2",
+          "persistentUuid": "4f22567f-f668-4fc9-9f24-c38b0c4fd3eb",
           "width": 0,
           "x": 800,
           "y": 64,
@@ -7766,6 +7976,7 @@
           "layer": "",
           "locked": false,
           "name": "plant2",
+          "persistentUuid": "54e24cab-f1f1-4118-abaf-3917c73856ee",
           "width": 0,
           "x": 912,
           "y": -32,
@@ -7781,6 +7992,7 @@
           "layer": "",
           "locked": false,
           "name": "plant2",
+          "persistentUuid": "6c216872-750a-4eae-bdca-a7dc0c911375",
           "width": 0,
           "x": 992,
           "y": 80,
@@ -7796,6 +8008,7 @@
           "layer": "",
           "locked": false,
           "name": "plant2",
+          "persistentUuid": "4c0f384f-fb0c-4778-968b-415cfffcf0af",
           "width": 0,
           "x": 1280,
           "y": 80,
@@ -7811,6 +8024,7 @@
           "layer": "",
           "locked": false,
           "name": "boxer",
+          "persistentUuid": "ef1f0a1e-8ad3-45da-9bbf-422f09485178",
           "width": 18,
           "x": 187,
           "y": 158,
@@ -7826,6 +8040,7 @@
           "layer": "",
           "locked": false,
           "name": "hitbox",
+          "persistentUuid": "62b9f728-2dc2-4784-a487-de16c88b7b94",
           "width": 0,
           "x": 131,
           "y": 153,
@@ -11015,6 +11230,11 @@
       ],
       "layers": [
         {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
           "name": "",
           "visibility": true,
           "cameras": [
@@ -11032,6 +11252,11 @@
           "effects": []
         },
         {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
           "name": "GUI",
           "visibility": true,
           "cameras": [],
@@ -11073,7 +11298,7 @@
         "gridWidth": 32,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 1.192
+        "zoomFactor": 1.048
       },
       "objectsGroups": [],
       "variables": [],
@@ -11085,6 +11310,7 @@
           "layer": "",
           "locked": false,
           "name": "NewObject",
+          "persistentUuid": "e6213ef0-68b0-4eae-aafc-3d80868def0c",
           "width": 896,
           "x": -226,
           "y": 212,
@@ -11100,6 +11326,7 @@
           "layer": "",
           "locked": false,
           "name": "Player",
+          "persistentUuid": "c250e7e4-3c57-4451-8186-d67abf335ccc",
           "width": 0,
           "x": 89,
           "y": 171,
@@ -11115,6 +11342,7 @@
           "layer": "",
           "locked": false,
           "name": "HitBox",
+          "persistentUuid": "8405d18f-3c0e-4a06-8076-2cc732ad399f",
           "width": 11,
           "x": 116,
           "y": 169,
@@ -11130,6 +11358,7 @@
           "layer": "",
           "locked": false,
           "name": "boxer",
+          "persistentUuid": "a03ec925-c6b8-43df-a8ae-033bf63a70b2",
           "width": 0,
           "x": 182,
           "y": 147,
@@ -11178,6 +11407,10 @@
             }
           ],
           "behaviors": [
+            {
+              "name": "KonamiCode",
+              "type": "KonamiCode::KonamiCode"
+            },
             {
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
@@ -11893,7 +12126,7 @@
         },
         {
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [
@@ -12049,7 +12282,7 @@
         },
         {
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -12206,7 +12439,7 @@
         },
         {
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -12311,11 +12544,44 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "atak",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KonamiCode::KonamiCode::KC_Inputted"
+                  },
+                  "parameters": [
+                    "Player",
+                    "KonamiCode",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PushScene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"super easter jajo scena\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
             {
               "disabled": false,
               "folded": false,
@@ -12559,7 +12825,7 @@
         },
         {
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -12800,14 +13066,26 @@
         {
           "disabled": false,
           "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [],
-          "events": []
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "PROSZĘ O WJEŚCIE W GRĘ I WPISANIE KONAMI CODE  (BARDZO ŚMIESZNE)",
+          "comment2": ""
         }
       ],
       "layers": [
         {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
           "name": "",
           "visibility": true,
           "cameras": [
@@ -12827,6 +13105,10 @@
       ],
       "behaviorsSharedData": [
         {
+          "name": "KonamiCode",
+          "type": "KonamiCode::KonamiCode"
+        },
+        {
           "name": "Platform",
           "type": "PlatformBehavior::PlatformBehavior"
         },
@@ -12835,10 +13117,2964 @@
           "type": "PlatformBehavior::PlatformerObjectBehavior"
         }
       ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "super_32easter_32jajo_32scena",
+      "name": "super easter jajo scena",
+      "oglFOV": 90,
+      "oglZFar": 500,
+      "oglZNear": 1,
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridB": 255,
+        "gridG": 180,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridR": 158,
+        "gridWidth": 32,
+        "snap": true,
+        "windowMask": false,
+        "zoomFactor": 1.096
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 255,
+          "layer": "",
+          "locked": false,
+          "name": "monky",
+          "persistentUuid": "a1144525-b19b-44f2-a444-8cb651f53824",
+          "width": 416,
+          "x": 1,
+          "y": 2,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "name": "monky",
+          "tags": "",
+          "type": "Video::VideoObject",
+          "variables": [],
+          "behaviors": [],
+          "content": {
+            "opacity": 255,
+            "loop": false,
+            "volume": 100,
+            "videoResource": "How to gangster 3.mp4"
+          }
+        }
+      ],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Video::Play"
+              },
+              "parameters": [
+                "monky"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Video::Ended"
+              },
+              "parameters": [
+                "monky"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PopScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 9492632,
+          "ambientLightColorG": 6255272,
+          "ambientLightColorR": 7096120,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": []
     }
   ],
   "externalEvents": [],
-  "eventsFunctionsExtensions": [],
+  "eventsFunctionsExtensions": [
+    {
+      "author": "Tommaso \"Giampiero\" Bresciani",
+      "description": "**Konami Code - by Tommaso \"Giampiero\" Bresciani**\n\nAllows to input the classic Konami Code (*\"Up, Up, Down, Down, Left, Right, Left, Right, B, A\"*) into a scene for cheats and easter eggs.\n\nTo use it, simply **attach the behavior** to any object in a scene and use the Konami Code condition in the editor to trigger your desired effects with events.",
+      "extensionNamespace": "",
+      "fullName": "Konami Code",
+      "name": "KonamiCode",
+      "shortDescription": "Allows to input the classic Konami Code (\"Up, Up, Down, Down, Left, Right, Left, Right, B, A\") into a scene for cheats and easter eggs.",
+      "tags": "Konami Code, Cheats, Easter Egg",
+      "version": "1.0",
+      "eventsFunctions": [],
+      "eventsBasedBehaviors": [
+        {
+          "description": "Allows to input the classic Konami Code (\"Up, Up, Down, Down, Left, Right, Left, Right, B, A\") into a scene for cheats and easter eggs.",
+          "fullName": "Konami Code",
+          "name": "KonamiCode",
+          "objectType": "",
+          "eventsFunctions": [
+            {
+              "description": "",
+              "fullName": "",
+              "functionType": "Action",
+              "name": "doStepPreEvents",
+              "sentence": "",
+              "events": [
+                {
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
+                  "disabled": false,
+                  "folded": false,
+                  "name": "Konami Code",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "Initialize",
+                      "comment2": ""
+                    },
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": [],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "SetReturnBoolean"
+                          },
+                          "parameters": [
+                            "False"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarScene"
+                          },
+                          "parameters": [
+                            "KC",
+                            "=",
+                            "0"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarSceneTxt"
+                          },
+                          "parameters": [
+                            "KC_IsCompleted",
+                            "=",
+                            "\"False\""
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarSceneTxt"
+                          },
+                          "parameters": [
+                            "KC_LastKeyIsUp",
+                            "=",
+                            "\"False\""
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ResetTimer"
+                          },
+                          "parameters": [
+                            "",
+                            "\"KC_InputTimer\""
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    },
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarSceneTxt"
+                          },
+                          "parameters": [
+                            "KC_KeyPressed",
+                            "=",
+                            "LastPressedKey()"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    },
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "VarScene"
+                          },
+                          "parameters": [
+                            "KC",
+                            "=",
+                            "0"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": [],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ResetTimer"
+                          },
+                          "parameters": [
+                            "",
+                            "\"KC_InputTimer\""
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    },
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "VarSceneTxt"
+                          },
+                          "parameters": [
+                            "KC_LastKeyIsUp",
+                            "=",
+                            "\"True\""
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": [],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarSceneTxt"
+                          },
+                          "parameters": [
+                            "KC_KeyPressed",
+                            "=",
+                            "\"NoDirection\""
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarSceneTxt"
+                          },
+                          "parameters": [
+                            "KC_LastKeyIsUp",
+                            "=",
+                            "\"False\""
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    },
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "Timer"
+                          },
+                          "parameters": [
+                            "KC_LastKeyIsUp",
+                            "1.5",
+                            "\"KC_InputTimer\""
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": [],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarScene"
+                          },
+                          "parameters": [
+                            "KC",
+                            "=",
+                            "0"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    },
+                    {
+                      "colorB": 228,
+                      "colorG": 176,
+                      "colorR": 74,
+                      "creationTime": 0,
+                      "disabled": false,
+                      "folded": false,
+                      "name": "Inputs",
+                      "source": "",
+                      "type": "BuiltinCommonInstructions::Group",
+                      "events": [
+                        {
+                          "disabled": false,
+                          "folded": false,
+                          "type": "BuiltinCommonInstructions::Comment",
+                          "color": {
+                            "b": 109,
+                            "g": 230,
+                            "r": 255,
+                            "textB": 0,
+                            "textG": 0,
+                            "textR": 0
+                          },
+                          "comment": "UP-1",
+                          "comment2": ""
+                        },
+                        {
+                          "disabled": false,
+                          "folded": false,
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "VarScene"
+                              },
+                              "parameters": [
+                                "KC",
+                                "=",
+                                "0"
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "VarSceneTxt"
+                              },
+                              "parameters": [
+                                "KC_LastKeyIsUp",
+                                "=",
+                                "\"False\""
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "AnyKeyPressed"
+                              },
+                              "parameters": [
+                                ""
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": [],
+                              "subInstructions": []
+                            }
+                          ],
+                          "actions": [],
+                          "events": [
+                            {
+                              "disabled": false,
+                              "folded": false,
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "VarSceneTxt"
+                                  },
+                                  "parameters": [
+                                    "KC_KeyPressed",
+                                    "=",
+                                    "\"Up\""
+                                  ],
+                                  "subInstructions": []
+                                },
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "BuiltinCommonInstructions::Once"
+                                  },
+                                  "parameters": [],
+                                  "subInstructions": []
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "ModVarScene"
+                                  },
+                                  "parameters": [
+                                    "KC",
+                                    "+",
+                                    "1"
+                                  ],
+                                  "subInstructions": []
+                                },
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "ResetTimer"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "\"KC_InputTimer\""
+                                  ],
+                                  "subInstructions": []
+                                }
+                              ],
+                              "events": []
+                            },
+                            {
+                              "disabled": false,
+                              "folded": false,
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "VarSceneTxt"
+                                  },
+                                  "parameters": [
+                                    "KC_KeyPressed",
+                                    "!=",
+                                    "\"Up\""
+                                  ],
+                                  "subInstructions": []
+                                },
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "BuiltinCommonInstructions::Once"
+                                  },
+                                  "parameters": [],
+                                  "subInstructions": []
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "ModVarScene"
+                                  },
+                                  "parameters": [
+                                    "KC",
+                                    "=",
+                                    "0"
+                                  ],
+                                  "subInstructions": []
+                                }
+                              ],
+                              "events": []
+                            }
+                          ]
+                        },
+                        {
+                          "disabled": false,
+                          "folded": false,
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "VarScene"
+                              },
+                              "parameters": [
+                                "KC",
+                                "=",
+                                "1"
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "KeyReleased"
+                              },
+                              "parameters": [
+                                "",
+                                "Up"
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": [],
+                              "subInstructions": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "ModVarScene"
+                              },
+                              "parameters": [
+                                "KC",
+                                "+",
+                                "1"
+                              ],
+                              "subInstructions": []
+                            }
+                          ],
+                          "events": []
+                        },
+                        {
+                          "disabled": false,
+                          "folded": false,
+                          "type": "BuiltinCommonInstructions::Comment",
+                          "color": {
+                            "b": 109,
+                            "g": 230,
+                            "r": 255,
+                            "textB": 0,
+                            "textG": 0,
+                            "textR": 0
+                          },
+                          "comment": "UP-2",
+                          "comment2": ""
+                        },
+                        {
+                          "disabled": false,
+                          "folded": false,
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "VarScene"
+                              },
+                              "parameters": [
+                                "KC",
+                                "=",
+                                "2"
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "AnyKeyPressed"
+                              },
+                              "parameters": [
+                                ""
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": [],
+                              "subInstructions": []
+                            }
+                          ],
+                          "actions": [],
+                          "events": [
+                            {
+                              "disabled": false,
+                              "folded": false,
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "VarSceneTxt"
+                                  },
+                                  "parameters": [
+                                    "KC_KeyPressed",
+                                    "=",
+                                    "\"Up\""
+                                  ],
+                                  "subInstructions": []
+                                },
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "BuiltinCommonInstructions::Once"
+                                  },
+                                  "parameters": [],
+                                  "subInstructions": []
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "ModVarScene"
+                                  },
+                                  "parameters": [
+                                    "KC",
+                                    "+",
+                                    "1"
+                                  ],
+                                  "subInstructions": []
+                                },
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "ResetTimer"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "\"KC_InputTimer\""
+                                  ],
+                                  "subInstructions": []
+                                }
+                              ],
+                              "events": []
+                            },
+                            {
+                              "disabled": false,
+                              "folded": false,
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "VarSceneTxt"
+                                  },
+                                  "parameters": [
+                                    "KC_KeyPressed",
+                                    "!=",
+                                    "\"Up\""
+                                  ],
+                                  "subInstructions": []
+                                },
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "BuiltinCommonInstructions::Once"
+                                  },
+                                  "parameters": [],
+                                  "subInstructions": []
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "ModVarScene"
+                                  },
+                                  "parameters": [
+                                    "KC",
+                                    "=",
+                                    "0"
+                                  ],
+                                  "subInstructions": []
+                                }
+                              ],
+                              "events": []
+                            }
+                          ]
+                        },
+                        {
+                          "disabled": false,
+                          "folded": false,
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "VarScene"
+                              },
+                              "parameters": [
+                                "KC",
+                                "=",
+                                "3"
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "KeyReleased"
+                              },
+                              "parameters": [
+                                "",
+                                "Up"
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": [],
+                              "subInstructions": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "ModVarScene"
+                              },
+                              "parameters": [
+                                "KC",
+                                "+",
+                                "1"
+                              ],
+                              "subInstructions": []
+                            }
+                          ],
+                          "events": []
+                        },
+                        {
+                          "disabled": false,
+                          "folded": false,
+                          "type": "BuiltinCommonInstructions::Comment",
+                          "color": {
+                            "b": 109,
+                            "g": 230,
+                            "r": 255,
+                            "textB": 0,
+                            "textG": 0,
+                            "textR": 0
+                          },
+                          "comment": "DOWN-1",
+                          "comment2": ""
+                        },
+                        {
+                          "disabled": false,
+                          "folded": false,
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "VarScene"
+                              },
+                              "parameters": [
+                                "KC",
+                                "=",
+                                "4"
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "AnyKeyPressed"
+                              },
+                              "parameters": [
+                                ""
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": [],
+                              "subInstructions": []
+                            }
+                          ],
+                          "actions": [],
+                          "events": [
+                            {
+                              "disabled": false,
+                              "folded": false,
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "VarSceneTxt"
+                                  },
+                                  "parameters": [
+                                    "KC_KeyPressed",
+                                    "=",
+                                    "\"Down\""
+                                  ],
+                                  "subInstructions": []
+                                },
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "BuiltinCommonInstructions::Once"
+                                  },
+                                  "parameters": [],
+                                  "subInstructions": []
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "ModVarScene"
+                                  },
+                                  "parameters": [
+                                    "KC",
+                                    "+",
+                                    "1"
+                                  ],
+                                  "subInstructions": []
+                                },
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "ResetTimer"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "\"KC_InputTimer\""
+                                  ],
+                                  "subInstructions": []
+                                }
+                              ],
+                              "events": []
+                            },
+                            {
+                              "disabled": false,
+                              "folded": false,
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "VarSceneTxt"
+                                  },
+                                  "parameters": [
+                                    "KC_KeyPressed",
+                                    "!=",
+                                    "\"Down\""
+                                  ],
+                                  "subInstructions": []
+                                },
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "BuiltinCommonInstructions::Once"
+                                  },
+                                  "parameters": [],
+                                  "subInstructions": []
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "ModVarScene"
+                                  },
+                                  "parameters": [
+                                    "KC",
+                                    "=",
+                                    "0"
+                                  ],
+                                  "subInstructions": []
+                                }
+                              ],
+                              "events": [
+                                {
+                                  "disabled": false,
+                                  "folded": false,
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "inverted": false,
+                                        "value": "VarSceneTxt"
+                                      },
+                                      "parameters": [
+                                        "KC_KeyPressed",
+                                        "=",
+                                        "\"Up\""
+                                      ],
+                                      "subInstructions": []
+                                    },
+                                    {
+                                      "type": {
+                                        "inverted": false,
+                                        "value": "BuiltinCommonInstructions::Once"
+                                      },
+                                      "parameters": [],
+                                      "subInstructions": []
+                                    }
+                                  ],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "inverted": false,
+                                        "value": "ModVarSceneTxt"
+                                      },
+                                      "parameters": [
+                                        "KC_LastKeyIsUp",
+                                        "=",
+                                        "\"True\""
+                                      ],
+                                      "subInstructions": []
+                                    }
+                                  ],
+                                  "events": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "disabled": false,
+                          "folded": false,
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "VarScene"
+                              },
+                              "parameters": [
+                                "KC",
+                                "=",
+                                "5"
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "KeyReleased"
+                              },
+                              "parameters": [
+                                "",
+                                "Down"
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": [],
+                              "subInstructions": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "ModVarScene"
+                              },
+                              "parameters": [
+                                "KC",
+                                "+",
+                                "1"
+                              ],
+                              "subInstructions": []
+                            }
+                          ],
+                          "events": []
+                        },
+                        {
+                          "disabled": false,
+                          "folded": false,
+                          "type": "BuiltinCommonInstructions::Comment",
+                          "color": {
+                            "b": 109,
+                            "g": 230,
+                            "r": 255,
+                            "textB": 0,
+                            "textG": 0,
+                            "textR": 0
+                          },
+                          "comment": "DOWN-2",
+                          "comment2": ""
+                        },
+                        {
+                          "disabled": false,
+                          "folded": false,
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "VarScene"
+                              },
+                              "parameters": [
+                                "KC",
+                                "=",
+                                "6"
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "AnyKeyPressed"
+                              },
+                              "parameters": [
+                                ""
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": [],
+                              "subInstructions": []
+                            }
+                          ],
+                          "actions": [],
+                          "events": [
+                            {
+                              "disabled": false,
+                              "folded": false,
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "VarSceneTxt"
+                                  },
+                                  "parameters": [
+                                    "KC_KeyPressed",
+                                    "=",
+                                    "\"Down\""
+                                  ],
+                                  "subInstructions": []
+                                },
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "BuiltinCommonInstructions::Once"
+                                  },
+                                  "parameters": [],
+                                  "subInstructions": []
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "ModVarScene"
+                                  },
+                                  "parameters": [
+                                    "KC",
+                                    "+",
+                                    "1"
+                                  ],
+                                  "subInstructions": []
+                                },
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "ResetTimer"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "\"KC_InputTimer\""
+                                  ],
+                                  "subInstructions": []
+                                }
+                              ],
+                              "events": []
+                            },
+                            {
+                              "disabled": false,
+                              "folded": false,
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "VarSceneTxt"
+                                  },
+                                  "parameters": [
+                                    "KC_KeyPressed",
+                                    "!=",
+                                    "\"Down\""
+                                  ],
+                                  "subInstructions": []
+                                },
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "BuiltinCommonInstructions::Once"
+                                  },
+                                  "parameters": [],
+                                  "subInstructions": []
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "ModVarScene"
+                                  },
+                                  "parameters": [
+                                    "KC",
+                                    "=",
+                                    "0"
+                                  ],
+                                  "subInstructions": []
+                                }
+                              ],
+                              "events": [
+                                {
+                                  "disabled": false,
+                                  "folded": false,
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "inverted": false,
+                                        "value": "VarSceneTxt"
+                                      },
+                                      "parameters": [
+                                        "KC_KeyPressed",
+                                        "=",
+                                        "\"Up\""
+                                      ],
+                                      "subInstructions": []
+                                    },
+                                    {
+                                      "type": {
+                                        "inverted": false,
+                                        "value": "BuiltinCommonInstructions::Once"
+                                      },
+                                      "parameters": [],
+                                      "subInstructions": []
+                                    }
+                                  ],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "inverted": false,
+                                        "value": "ModVarSceneTxt"
+                                      },
+                                      "parameters": [
+                                        "KC_LastKeyIsUp",
+                                        "=",
+                                        "\"True\""
+                                      ],
+                                      "subInstructions": []
+                                    }
+                                  ],
+                                  "events": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "disabled": false,
+                          "folded": false,
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "VarScene"
+                              },
+                              "parameters": [
+                                "KC",
+                                "=",
+                                "7"
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "KeyReleased"
+                              },
+                              "parameters": [
+                                "",
+                                "Down"
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": [],
+                              "subInstructions": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "ModVarScene"
+                              },
+                              "parameters": [
+                                "KC",
+                                "+",
+                                "1"
+                              ],
+                              "subInstructions": []
+                            }
+                          ],
+                          "events": []
+                        },
+                        {
+                          "disabled": false,
+                          "folded": false,
+                          "type": "BuiltinCommonInstructions::Comment",
+                          "color": {
+                            "b": 109,
+                            "g": 230,
+                            "r": 255,
+                            "textB": 0,
+                            "textG": 0,
+                            "textR": 0
+                          },
+                          "comment": "LEFT-1",
+                          "comment2": ""
+                        },
+                        {
+                          "disabled": false,
+                          "folded": false,
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "VarScene"
+                              },
+                              "parameters": [
+                                "KC",
+                                "=",
+                                "8"
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "AnyKeyPressed"
+                              },
+                              "parameters": [
+                                ""
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": [],
+                              "subInstructions": []
+                            }
+                          ],
+                          "actions": [],
+                          "events": [
+                            {
+                              "disabled": false,
+                              "folded": false,
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "VarSceneTxt"
+                                  },
+                                  "parameters": [
+                                    "KC_KeyPressed",
+                                    "=",
+                                    "\"Left\""
+                                  ],
+                                  "subInstructions": []
+                                },
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "BuiltinCommonInstructions::Once"
+                                  },
+                                  "parameters": [],
+                                  "subInstructions": []
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "ModVarScene"
+                                  },
+                                  "parameters": [
+                                    "KC",
+                                    "+",
+                                    "1"
+                                  ],
+                                  "subInstructions": []
+                                },
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "ResetTimer"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "\"KC_InputTimer\""
+                                  ],
+                                  "subInstructions": []
+                                }
+                              ],
+                              "events": []
+                            },
+                            {
+                              "disabled": false,
+                              "folded": false,
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "VarSceneTxt"
+                                  },
+                                  "parameters": [
+                                    "KC_KeyPressed",
+                                    "!=",
+                                    "\"Left\""
+                                  ],
+                                  "subInstructions": []
+                                },
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "BuiltinCommonInstructions::Once"
+                                  },
+                                  "parameters": [],
+                                  "subInstructions": []
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "ModVarScene"
+                                  },
+                                  "parameters": [
+                                    "KC",
+                                    "=",
+                                    "0"
+                                  ],
+                                  "subInstructions": []
+                                }
+                              ],
+                              "events": [
+                                {
+                                  "disabled": false,
+                                  "folded": false,
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "inverted": false,
+                                        "value": "VarSceneTxt"
+                                      },
+                                      "parameters": [
+                                        "KC_KeyPressed",
+                                        "=",
+                                        "\"Up\""
+                                      ],
+                                      "subInstructions": []
+                                    },
+                                    {
+                                      "type": {
+                                        "inverted": false,
+                                        "value": "BuiltinCommonInstructions::Once"
+                                      },
+                                      "parameters": [],
+                                      "subInstructions": []
+                                    }
+                                  ],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "inverted": false,
+                                        "value": "ModVarSceneTxt"
+                                      },
+                                      "parameters": [
+                                        "KC_LastKeyIsUp",
+                                        "=",
+                                        "\"True\""
+                                      ],
+                                      "subInstructions": []
+                                    }
+                                  ],
+                                  "events": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "disabled": false,
+                          "folded": false,
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "VarScene"
+                              },
+                              "parameters": [
+                                "KC",
+                                "=",
+                                "9"
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "KeyReleased"
+                              },
+                              "parameters": [
+                                "",
+                                "Left"
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": [],
+                              "subInstructions": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "ModVarScene"
+                              },
+                              "parameters": [
+                                "KC",
+                                "+",
+                                "1"
+                              ],
+                              "subInstructions": []
+                            }
+                          ],
+                          "events": []
+                        },
+                        {
+                          "disabled": false,
+                          "folded": false,
+                          "type": "BuiltinCommonInstructions::Comment",
+                          "color": {
+                            "b": 109,
+                            "g": 230,
+                            "r": 255,
+                            "textB": 0,
+                            "textG": 0,
+                            "textR": 0
+                          },
+                          "comment": "RIGHT-1",
+                          "comment2": ""
+                        },
+                        {
+                          "disabled": false,
+                          "folded": false,
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "VarScene"
+                              },
+                              "parameters": [
+                                "KC",
+                                "=",
+                                "10"
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "AnyKeyPressed"
+                              },
+                              "parameters": [
+                                ""
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": [],
+                              "subInstructions": []
+                            }
+                          ],
+                          "actions": [],
+                          "events": [
+                            {
+                              "disabled": false,
+                              "folded": false,
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "VarSceneTxt"
+                                  },
+                                  "parameters": [
+                                    "KC_KeyPressed",
+                                    "=",
+                                    "\"Right\""
+                                  ],
+                                  "subInstructions": []
+                                },
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "BuiltinCommonInstructions::Once"
+                                  },
+                                  "parameters": [],
+                                  "subInstructions": []
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "ModVarScene"
+                                  },
+                                  "parameters": [
+                                    "KC",
+                                    "+",
+                                    "1"
+                                  ],
+                                  "subInstructions": []
+                                },
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "ResetTimer"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "\"KC_InputTimer\""
+                                  ],
+                                  "subInstructions": []
+                                }
+                              ],
+                              "events": []
+                            },
+                            {
+                              "disabled": false,
+                              "folded": false,
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "VarSceneTxt"
+                                  },
+                                  "parameters": [
+                                    "KC_KeyPressed",
+                                    "!=",
+                                    "\"Right\""
+                                  ],
+                                  "subInstructions": []
+                                },
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "BuiltinCommonInstructions::Once"
+                                  },
+                                  "parameters": [],
+                                  "subInstructions": []
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "ModVarScene"
+                                  },
+                                  "parameters": [
+                                    "KC",
+                                    "=",
+                                    "0"
+                                  ],
+                                  "subInstructions": []
+                                }
+                              ],
+                              "events": [
+                                {
+                                  "disabled": false,
+                                  "folded": false,
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "inverted": false,
+                                        "value": "VarSceneTxt"
+                                      },
+                                      "parameters": [
+                                        "KC_KeyPressed",
+                                        "=",
+                                        "\"Up\""
+                                      ],
+                                      "subInstructions": []
+                                    },
+                                    {
+                                      "type": {
+                                        "inverted": false,
+                                        "value": "BuiltinCommonInstructions::Once"
+                                      },
+                                      "parameters": [],
+                                      "subInstructions": []
+                                    }
+                                  ],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "inverted": false,
+                                        "value": "ModVarSceneTxt"
+                                      },
+                                      "parameters": [
+                                        "KC_LastKeyIsUp",
+                                        "=",
+                                        "\"True\""
+                                      ],
+                                      "subInstructions": []
+                                    }
+                                  ],
+                                  "events": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "disabled": false,
+                          "folded": false,
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "VarScene"
+                              },
+                              "parameters": [
+                                "KC",
+                                "=",
+                                "11"
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "KeyReleased"
+                              },
+                              "parameters": [
+                                "",
+                                "Right"
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": [],
+                              "subInstructions": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "ModVarScene"
+                              },
+                              "parameters": [
+                                "KC",
+                                "+",
+                                "1"
+                              ],
+                              "subInstructions": []
+                            }
+                          ],
+                          "events": []
+                        },
+                        {
+                          "disabled": false,
+                          "folded": false,
+                          "type": "BuiltinCommonInstructions::Comment",
+                          "color": {
+                            "b": 109,
+                            "g": 230,
+                            "r": 255,
+                            "textB": 0,
+                            "textG": 0,
+                            "textR": 0
+                          },
+                          "comment": "LEFT-2",
+                          "comment2": ""
+                        },
+                        {
+                          "disabled": false,
+                          "folded": false,
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "VarScene"
+                              },
+                              "parameters": [
+                                "KC",
+                                "=",
+                                "12"
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "AnyKeyPressed"
+                              },
+                              "parameters": [
+                                ""
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": [],
+                              "subInstructions": []
+                            }
+                          ],
+                          "actions": [],
+                          "events": [
+                            {
+                              "disabled": false,
+                              "folded": false,
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "VarSceneTxt"
+                                  },
+                                  "parameters": [
+                                    "KC_KeyPressed",
+                                    "=",
+                                    "\"Left\""
+                                  ],
+                                  "subInstructions": []
+                                },
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "BuiltinCommonInstructions::Once"
+                                  },
+                                  "parameters": [],
+                                  "subInstructions": []
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "ModVarScene"
+                                  },
+                                  "parameters": [
+                                    "KC",
+                                    "+",
+                                    "1"
+                                  ],
+                                  "subInstructions": []
+                                },
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "ResetTimer"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "\"KC_InputTimer\""
+                                  ],
+                                  "subInstructions": []
+                                }
+                              ],
+                              "events": []
+                            },
+                            {
+                              "disabled": false,
+                              "folded": false,
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "VarSceneTxt"
+                                  },
+                                  "parameters": [
+                                    "KC_KeyPressed",
+                                    "!=",
+                                    "\"Left\""
+                                  ],
+                                  "subInstructions": []
+                                },
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "BuiltinCommonInstructions::Once"
+                                  },
+                                  "parameters": [],
+                                  "subInstructions": []
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "ModVarScene"
+                                  },
+                                  "parameters": [
+                                    "KC",
+                                    "=",
+                                    "0"
+                                  ],
+                                  "subInstructions": []
+                                }
+                              ],
+                              "events": [
+                                {
+                                  "disabled": false,
+                                  "folded": false,
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "inverted": false,
+                                        "value": "VarSceneTxt"
+                                      },
+                                      "parameters": [
+                                        "KC_KeyPressed",
+                                        "=",
+                                        "\"Up\""
+                                      ],
+                                      "subInstructions": []
+                                    },
+                                    {
+                                      "type": {
+                                        "inverted": false,
+                                        "value": "BuiltinCommonInstructions::Once"
+                                      },
+                                      "parameters": [],
+                                      "subInstructions": []
+                                    }
+                                  ],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "inverted": false,
+                                        "value": "ModVarSceneTxt"
+                                      },
+                                      "parameters": [
+                                        "KC_LastKeyIsUp",
+                                        "=",
+                                        "\"True\""
+                                      ],
+                                      "subInstructions": []
+                                    }
+                                  ],
+                                  "events": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "disabled": false,
+                          "folded": false,
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "VarScene"
+                              },
+                              "parameters": [
+                                "KC",
+                                "=",
+                                "13"
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "KeyReleased"
+                              },
+                              "parameters": [
+                                "",
+                                "Left"
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": [],
+                              "subInstructions": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "ModVarScene"
+                              },
+                              "parameters": [
+                                "KC",
+                                "+",
+                                "1"
+                              ],
+                              "subInstructions": []
+                            }
+                          ],
+                          "events": []
+                        },
+                        {
+                          "disabled": false,
+                          "folded": false,
+                          "type": "BuiltinCommonInstructions::Comment",
+                          "color": {
+                            "b": 109,
+                            "g": 230,
+                            "r": 255,
+                            "textB": 0,
+                            "textG": 0,
+                            "textR": 0
+                          },
+                          "comment": "RIGHT-2",
+                          "comment2": ""
+                        },
+                        {
+                          "disabled": false,
+                          "folded": false,
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "VarScene"
+                              },
+                              "parameters": [
+                                "KC",
+                                "=",
+                                "14"
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "AnyKeyPressed"
+                              },
+                              "parameters": [
+                                ""
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": [],
+                              "subInstructions": []
+                            }
+                          ],
+                          "actions": [],
+                          "events": [
+                            {
+                              "disabled": false,
+                              "folded": false,
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "VarSceneTxt"
+                                  },
+                                  "parameters": [
+                                    "KC_KeyPressed",
+                                    "=",
+                                    "\"Right\""
+                                  ],
+                                  "subInstructions": []
+                                },
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "BuiltinCommonInstructions::Once"
+                                  },
+                                  "parameters": [],
+                                  "subInstructions": []
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "ModVarScene"
+                                  },
+                                  "parameters": [
+                                    "KC",
+                                    "+",
+                                    "1"
+                                  ],
+                                  "subInstructions": []
+                                },
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "ResetTimer"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "\"KC_InputTimer\""
+                                  ],
+                                  "subInstructions": []
+                                }
+                              ],
+                              "events": []
+                            },
+                            {
+                              "disabled": false,
+                              "folded": false,
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "VarSceneTxt"
+                                  },
+                                  "parameters": [
+                                    "KC_KeyPressed",
+                                    "!=",
+                                    "\"Right\""
+                                  ],
+                                  "subInstructions": []
+                                },
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "BuiltinCommonInstructions::Once"
+                                  },
+                                  "parameters": [],
+                                  "subInstructions": []
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "ModVarScene"
+                                  },
+                                  "parameters": [
+                                    "KC",
+                                    "=",
+                                    "0"
+                                  ],
+                                  "subInstructions": []
+                                }
+                              ],
+                              "events": [
+                                {
+                                  "disabled": false,
+                                  "folded": false,
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "inverted": false,
+                                        "value": "VarSceneTxt"
+                                      },
+                                      "parameters": [
+                                        "KC_KeyPressed",
+                                        "=",
+                                        "\"Up\""
+                                      ],
+                                      "subInstructions": []
+                                    },
+                                    {
+                                      "type": {
+                                        "inverted": false,
+                                        "value": "BuiltinCommonInstructions::Once"
+                                      },
+                                      "parameters": [],
+                                      "subInstructions": []
+                                    }
+                                  ],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "inverted": false,
+                                        "value": "ModVarSceneTxt"
+                                      },
+                                      "parameters": [
+                                        "KC_LastKeyIsUp",
+                                        "=",
+                                        "\"True\""
+                                      ],
+                                      "subInstructions": []
+                                    }
+                                  ],
+                                  "events": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "disabled": false,
+                          "folded": false,
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "VarScene"
+                              },
+                              "parameters": [
+                                "KC",
+                                "=",
+                                "15"
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "KeyReleased"
+                              },
+                              "parameters": [
+                                "",
+                                "Right"
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": [],
+                              "subInstructions": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "ModVarScene"
+                              },
+                              "parameters": [
+                                "KC",
+                                "+",
+                                "1"
+                              ],
+                              "subInstructions": []
+                            }
+                          ],
+                          "events": []
+                        },
+                        {
+                          "disabled": false,
+                          "folded": false,
+                          "type": "BuiltinCommonInstructions::Comment",
+                          "color": {
+                            "b": 109,
+                            "g": 230,
+                            "r": 255,
+                            "textB": 0,
+                            "textG": 0,
+                            "textR": 0
+                          },
+                          "comment": "B",
+                          "comment2": ""
+                        },
+                        {
+                          "disabled": false,
+                          "folded": false,
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "VarScene"
+                              },
+                              "parameters": [
+                                "KC",
+                                "=",
+                                "16"
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "AnyKeyPressed"
+                              },
+                              "parameters": [
+                                ""
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": [],
+                              "subInstructions": []
+                            }
+                          ],
+                          "actions": [],
+                          "events": [
+                            {
+                              "disabled": false,
+                              "folded": false,
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "VarSceneTxt"
+                                  },
+                                  "parameters": [
+                                    "KC_KeyPressed",
+                                    "=",
+                                    "\"b\""
+                                  ],
+                                  "subInstructions": []
+                                },
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "BuiltinCommonInstructions::Once"
+                                  },
+                                  "parameters": [],
+                                  "subInstructions": []
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "ModVarScene"
+                                  },
+                                  "parameters": [
+                                    "KC",
+                                    "+",
+                                    "1"
+                                  ],
+                                  "subInstructions": []
+                                },
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "ResetTimer"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "\"KC_InputTimer\""
+                                  ],
+                                  "subInstructions": []
+                                }
+                              ],
+                              "events": []
+                            },
+                            {
+                              "disabled": false,
+                              "folded": false,
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "VarSceneTxt"
+                                  },
+                                  "parameters": [
+                                    "KC_KeyPressed",
+                                    "!=",
+                                    "\"b\""
+                                  ],
+                                  "subInstructions": []
+                                },
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "BuiltinCommonInstructions::Once"
+                                  },
+                                  "parameters": [],
+                                  "subInstructions": []
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "ModVarScene"
+                                  },
+                                  "parameters": [
+                                    "KC",
+                                    "=",
+                                    "0"
+                                  ],
+                                  "subInstructions": []
+                                }
+                              ],
+                              "events": [
+                                {
+                                  "disabled": false,
+                                  "folded": false,
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "inverted": false,
+                                        "value": "VarSceneTxt"
+                                      },
+                                      "parameters": [
+                                        "KC_KeyPressed",
+                                        "=",
+                                        "\"Up\""
+                                      ],
+                                      "subInstructions": []
+                                    },
+                                    {
+                                      "type": {
+                                        "inverted": false,
+                                        "value": "BuiltinCommonInstructions::Once"
+                                      },
+                                      "parameters": [],
+                                      "subInstructions": []
+                                    }
+                                  ],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "inverted": false,
+                                        "value": "ModVarSceneTxt"
+                                      },
+                                      "parameters": [
+                                        "KC_LastKeyIsUp",
+                                        "=",
+                                        "\"True\""
+                                      ],
+                                      "subInstructions": []
+                                    }
+                                  ],
+                                  "events": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "disabled": false,
+                          "folded": false,
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "VarScene"
+                              },
+                              "parameters": [
+                                "KC",
+                                "=",
+                                "17"
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "KeyReleased"
+                              },
+                              "parameters": [
+                                "",
+                                "b"
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": [],
+                              "subInstructions": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "ModVarScene"
+                              },
+                              "parameters": [
+                                "KC",
+                                "+",
+                                "1"
+                              ],
+                              "subInstructions": []
+                            }
+                          ],
+                          "events": []
+                        },
+                        {
+                          "disabled": false,
+                          "folded": false,
+                          "type": "BuiltinCommonInstructions::Comment",
+                          "color": {
+                            "b": 109,
+                            "g": 230,
+                            "r": 255,
+                            "textB": 0,
+                            "textG": 0,
+                            "textR": 0
+                          },
+                          "comment": "A",
+                          "comment2": ""
+                        },
+                        {
+                          "disabled": false,
+                          "folded": false,
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "VarScene"
+                              },
+                              "parameters": [
+                                "KC",
+                                "=",
+                                "18"
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "AnyKeyPressed"
+                              },
+                              "parameters": [
+                                ""
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": [],
+                              "subInstructions": []
+                            }
+                          ],
+                          "actions": [],
+                          "events": [
+                            {
+                              "disabled": false,
+                              "folded": false,
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "VarSceneTxt"
+                                  },
+                                  "parameters": [
+                                    "KC_KeyPressed",
+                                    "=",
+                                    "\"a\""
+                                  ],
+                                  "subInstructions": []
+                                },
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "BuiltinCommonInstructions::Once"
+                                  },
+                                  "parameters": [],
+                                  "subInstructions": []
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "ModVarScene"
+                                  },
+                                  "parameters": [
+                                    "KC",
+                                    "+",
+                                    "1"
+                                  ],
+                                  "subInstructions": []
+                                },
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "RemoveTimer"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "\"KC_InputTimer\""
+                                  ],
+                                  "subInstructions": []
+                                }
+                              ],
+                              "events": []
+                            },
+                            {
+                              "disabled": false,
+                              "folded": false,
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "VarSceneTxt"
+                                  },
+                                  "parameters": [
+                                    "KC_KeyPressed",
+                                    "!=",
+                                    "\"a\""
+                                  ],
+                                  "subInstructions": []
+                                },
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "BuiltinCommonInstructions::Once"
+                                  },
+                                  "parameters": [],
+                                  "subInstructions": []
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "ModVarScene"
+                                  },
+                                  "parameters": [
+                                    "KC",
+                                    "=",
+                                    "0"
+                                  ],
+                                  "subInstructions": []
+                                }
+                              ],
+                              "events": [
+                                {
+                                  "disabled": false,
+                                  "folded": false,
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "inverted": false,
+                                        "value": "VarSceneTxt"
+                                      },
+                                      "parameters": [
+                                        "KC_KeyPressed",
+                                        "=",
+                                        "\"Up\""
+                                      ],
+                                      "subInstructions": []
+                                    },
+                                    {
+                                      "type": {
+                                        "inverted": false,
+                                        "value": "BuiltinCommonInstructions::Once"
+                                      },
+                                      "parameters": [],
+                                      "subInstructions": []
+                                    }
+                                  ],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "inverted": false,
+                                        "value": "ModVarSceneTxt"
+                                      },
+                                      "parameters": [
+                                        "KC_LastKeyIsUp",
+                                        "=",
+                                        "\"True\""
+                                      ],
+                                      "subInstructions": []
+                                    }
+                                  ],
+                                  "events": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "disabled": false,
+                          "folded": false,
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "VarScene"
+                              },
+                              "parameters": [
+                                "KC",
+                                "=",
+                                "19"
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "KeyReleased"
+                              },
+                              "parameters": [
+                                "",
+                                "a"
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": [],
+                              "subInstructions": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "ModVarScene"
+                              },
+                              "parameters": [
+                                "KC",
+                                "+",
+                                "1"
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "ModVarSceneTxt"
+                              },
+                              "parameters": [
+                                "KC_IsCompleted",
+                                "=",
+                                "\"True\""
+                              ],
+                              "subInstructions": []
+                            }
+                          ],
+                          "events": []
+                        }
+                      ],
+                      "parameters": []
+                    }
+                  ],
+                  "parameters": []
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "longDescription": "",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "longDescription": "",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "KonamiCode::KonamiCode",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Checks if the Konami Code is correctly inputted.",
+              "fullName": "Is Inputted",
+              "functionType": "Condition",
+              "name": "KC_Inputted",
+              "sentence": "Konami Code is inputted with _PARAM0_",
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarSceneTxt"
+                      },
+                      "parameters": [
+                        "KC_IsCompleted",
+                        "=",
+                        "\"True\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "True"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "no"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "longDescription": "",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "longDescription": "",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "KonamiCode::KonamiCode",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            }
+          ],
+          "propertyDescriptors": []
+        }
+      ]
+    }
+  ],
   "externalLayouts": [],
   "externalSourceFiles": []
 }
