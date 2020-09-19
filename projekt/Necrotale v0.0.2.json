@@ -943,6 +943,13 @@
         "name": "end-1.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "file": "potion.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "potion.mp3",
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1003,7 +1010,7 @@
         "gridWidth": 16,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 1.93
+        "zoomFactor": 1.834
       },
       "objectsGroups": [],
       "variables": [],
@@ -5853,6 +5860,20 @@
                         "hp",
                         "+",
                         "1"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "potion.mp3",
+                        "",
+                        "30\n",
+                        ""
                       ],
                       "subInstructions": []
                     }
@@ -11307,7 +11328,7 @@
         "gridWidth": 32,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.856
+        "zoomFactor": 1.216
       },
       "objectsGroups": [],
       "variables": [],
@@ -12553,7 +12574,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "atak",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -12576,20 +12597,30 @@
                   "subInstructions": []
                 }
               ],
-              "actions": [
+              "actions": [],
+              "events": [
                 {
-                  "type": {
-                    "inverted": false,
-                    "value": "PushScene"
-                  },
-                  "parameters": [
-                    "",
-                    "\"super easter jajo scena\""
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Scene"
+                      },
+                      "parameters": [
+                        "",
+                        "\"super easter jajo scena\"",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
                   ],
-                  "subInstructions": []
+                  "events": []
                 }
-              ],
-              "events": []
+              ]
             },
             {
               "disabled": false,
@@ -13894,10 +13925,10 @@
           "variables": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ]
@@ -14362,39 +14393,6 @@
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "KonamiCode::KonamiCode::KC_Inputted"
-                  },
-                  "parameters": [
-                    "Player",
-                    "KonamiCode",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PushScene"
-                  },
-                  "parameters": [
-                    "",
-                    "\"super easter jajo scena\""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
             {
               "disabled": false,
               "folded": false,
@@ -15224,9 +15222,11 @@
             {
               "type": {
                 "inverted": false,
-                "value": "PopScene"
+                "value": "Scene"
               },
               "parameters": [
+                "",
+                "\"test_level\"",
                 ""
               ],
               "subInstructions": []
