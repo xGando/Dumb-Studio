@@ -13,7 +13,7 @@
     "macExecutableFilename": "",
     "orientation": "landscape",
     "packageName": "com.example.gamename",
-    "projectFile": "E:\\dumb studio\\Dumb-Studio\\projekt\\Necrotale v0.0.2.json",
+    "projectFile": "D:\\giereczka\\Necrotale\\projekt\\Necrotale v0.0.2.json",
     "scaleMode": "nearest",
     "sizeOnStartupMode": "adaptWidth",
     "useExternalSourceFiles": false,
@@ -11328,7 +11328,7 @@
         "gridWidth": 32,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 1.216
+        "zoomFactor": 1.144
       },
       "objectsGroups": [],
       "variables": [],
