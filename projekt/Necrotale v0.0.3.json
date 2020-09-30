@@ -11463,12 +11463,17 @@
           "name": "nowyGostek",
           "persistentUuid": "9e59bb1c-cf29-4b75-ae52-25f825cf7a0e",
           "width": 14,
-          "x": 456,
-          "y": 198,
+          "x": 458,
+          "y": 181,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "Variable",
+              "value": ""
+            }
+          ]
         },
         {
           "angle": 0,
@@ -12231,7 +12236,12 @@
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "Lewo",
+              "value": "0"
+            }
+          ],
           "behaviors": [
             {
               "acceleration": 1000,
@@ -12395,6 +12405,19 @@
                 "",
                 "yes",
                 ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "nowyGostek",
+                "Lewo",
+                "=",
+                "0"
               ],
               "subInstructions": []
             }
@@ -13545,6 +13568,98 @@
               "subInstructions": []
             }
           ],
+          "events": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": false,
+          "name": "nowyGostek",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "nowyGostek",
+                    "Lewo",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlatformBehavior::SimulateControl"
+                  },
+                  "parameters": [
+                    "nowyGostek",
+                    "PlatformerObject",
+                    "\"Left\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "nowyGostek",
+                    "Lewo",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlatformBehavior::SimulateControl"
+                  },
+                  "parameters": [
+                    "nowyGostek",
+                    "PlatformerObject",
+                    "\"Lewo\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
           "events": []
         }
       ],
