@@ -13740,6 +13740,17 @@
                     "\"Left\""
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "FlipX"
+                  },
+                  "parameters": [
+                    "nowyGostek",
+                    "no"
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": []
@@ -13773,6 +13784,17 @@
                     "nowyGostek",
                     "PlatformerObject",
                     "\"Right\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "FlipX"
+                  },
+                  "parameters": [
+                    "nowyGostek",
+                    "yes"
                   ],
                   "subInstructions": []
                 }
