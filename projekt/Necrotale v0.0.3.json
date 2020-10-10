@@ -14026,7 +14026,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 2.128
+        "zoomFactor": 2.152
       },
       "objectsGroups": [],
       "variables": [],
@@ -14062,6 +14062,22 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "cum",
+          "persistentUuid": "57b5dded-dbbf-47d6-90a8-a1200ca9bb08",
+          "width": 0,
+          "x": 86,
+          "y": -4,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -14091,6 +14107,25 @@
               "yGrabOffset": 0
             }
           ]
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "cum",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Cum Zone",
+          "font": "",
+          "characterSize": 50,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
         }
       ],
       "events": [
@@ -14220,16 +14255,8 @@
       ],
       "behaviorsSharedData": [
         {
-          "name": "KonamiCode",
-          "type": "KonamiCode::KonamiCode"
-        },
-        {
           "name": "Platform",
           "type": "PlatformBehavior::PlatformBehavior"
-        },
-        {
-          "name": "PlatformerObject",
-          "type": "PlatformBehavior::PlatformerObjectBehavior"
         }
       ]
     }
