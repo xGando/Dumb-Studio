@@ -993,6 +993,22 @@
         "metadata": "",
         "name": "cum zone.mp3",
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject3-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject3-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "cum zone opening.mp4",
+        "kind": "video",
+        "metadata": "",
+        "name": "cum zone opening.mp4",
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -14026,7 +14042,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 2.152
+        "zoomFactor": 1.6
       },
       "objectsGroups": [],
       "variables": [],
@@ -14078,6 +14094,38 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 23,
+          "layer": "",
+          "locked": false,
+          "name": "NewObject3",
+          "persistentUuid": "6d5da43f-5441-4ea2-9c78-107ba1db807c",
+          "width": 23,
+          "x": 45,
+          "y": 66,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 264,
+          "layer": "",
+          "locked": false,
+          "name": "NewObject4",
+          "persistentUuid": "b607cbc3-baf7-4d4b-935c-29f890588526",
+          "width": 420,
+          "x": 0,
+          "y": 0,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -14126,6 +14174,58 @@
             "g": 255,
             "r": 255
           }
+        },
+        {
+          "name": "NewObject3",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewObject3",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewObject3-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NewObject4",
+          "tags": "",
+          "type": "Video::VideoObject",
+          "variables": [],
+          "behaviors": [],
+          "content": {
+            "opacity": 255,
+            "loop": false,
+            "volume": 100,
+            "videoResource": "cum zone opening.mp4"
+          }
         }
       ],
       "events": [
@@ -14149,13 +14249,11 @@
             {
               "type": {
                 "inverted": false,
-                "value": "PlaySound"
+                "value": "SetFullScreen"
               },
               "parameters": [
                 "",
-                "cum zone.mp3",
-                "",
-                "100\n\n",
+                "yes",
                 ""
               ],
               "subInstructions": []
@@ -14163,12 +14261,10 @@
             {
               "type": {
                 "inverted": false,
-                "value": "SetFullScreen"
+                "value": "Video::Play"
               },
               "parameters": [
-                "",
-                "yes",
-                ""
+                "NewObject4"
               ],
               "subInstructions": []
             }
@@ -14221,6 +14317,83 @@
               "parameters": [
                 "",
                 "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "NewObject3",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisBouton"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"test_level\"",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Video::Ended"
+              },
+              "parameters": [
+                "NewObject4"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "NewObject4",
                 ""
               ],
               "subInstructions": []
