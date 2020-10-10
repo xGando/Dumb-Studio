@@ -1046,7 +1046,7 @@
         "gridWidth": 16,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 1.834
+        "zoomFactor": 1.738
       },
       "objectsGroups": [],
       "variables": [],
@@ -5841,12 +5841,26 @@
                     {
                       "type": {
                         "inverted": false,
-                        "value": "CentreCamera"
+                        "value": "CameraX"
                       },
                       "parameters": [
                         "",
-                        "Player",
+                        "=",
+                        "lerp(CameraX(), Player.X(), 0.07)",
                         "",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "CameraY"
+                      },
+                      "parameters": [
+                        "",
+                        "=",
+                        "lerp(CameraY(), Player.Y(), 0.08)",
                         "",
                         ""
                       ],
@@ -12294,6 +12308,8 @@
           ],
           "behaviors": [
             {
+              "name": "PlatformerObject",
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "acceleration": 1000,
               "canGrabPlatforms": false,
               "deceleration": 2000,
@@ -12304,10 +12320,8 @@
               "ladderClimbingSpeed": 150,
               "maxFallingSpeed": 700,
               "maxSpeed": 55,
-              "name": "PlatformerObject",
               "roundCoordinates": true,
               "slopeMaxAngle": 60,
-              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "xGrabTolerance": 10,
               "yGrabOffset": 0
             }
