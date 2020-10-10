@@ -2641,6 +2641,10 @@
           ],
           "behaviors": [
             {
+              "name": "KonamiCode",
+              "type": "KonamiCode::KonamiCode"
+            },
+            {
               "deceleration": 350,
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
@@ -6662,6 +6666,49 @@
           "disabled": false,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "KonamiCode::KonamiCode::KC_Inputted"
+              },
+              "parameters": [
+                "Player",
+                "KonamiCode",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"super easter jajo scena\"",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [],
           "events": []
@@ -6703,6 +6750,10 @@
         }
       ],
       "behaviorsSharedData": [
+        {
+          "name": "KonamiCode",
+          "type": "KonamiCode::KonamiCode"
+        },
         {
           "name": "Platform",
           "type": "PlatformBehavior::PlatformBehavior"
@@ -13087,27 +13138,27 @@
                   "subInstructions": []
                 }
               ],
-              "actions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"super easter jajo scena\"",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
               "events": [
                 {
                   "disabled": false,
                   "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "Scene"
-                      },
-                      "parameters": [
-                        "",
-                        "\"super easter jajo scena\"",
-                        ""
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
+                  "actions": [],
                   "events": []
                 }
               ]
