@@ -4701,10 +4701,10 @@
           "variables": [],
           "behaviors": [
             {
-              "canBeGrabbed": false,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": false,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ],
@@ -11794,7 +11794,7 @@
         "gridWidth": 32,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.952
+        "zoomFactor": 0.256
       },
       "objectsGroups": [
         {
@@ -11853,15 +11853,15 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "height": 96,
           "layer": "",
           "locked": false,
           "name": "Player",
           "persistentUuid": "74b7c93e-62df-43f1-a9c9-df8e4e41cd77",
-          "width": 0,
-          "x": 278,
-          "y": 167,
+          "width": 96,
+          "x": 492,
+          "y": 68,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -11971,14 +11971,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 151,
+          "height": 296,
           "layer": "",
           "locked": false,
           "name": "NewObject4",
-          "persistentUuid": "54906e5a-9bb4-4262-8512-ff5b6f4c4db8",
-          "width": 384,
-          "x": 39,
-          "y": 116,
+          "persistentUuid": "c87c4266-9fad-4465-aad1-82d9b64b695d",
+          "width": 1012,
+          "x": -208,
+          "y": -47,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -12933,61 +12933,14 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "test TEST QWERTY",
+          "string": "gostku kamera ma teraz git rozdzielczość więc napisy też będą git       Teraz ci pokazywałem jak duży jest gostek bo musimy wiedzieć jak powiększać grafiki znaczy o ile\n",
           "font": "",
-          "characterSize": 40,
+          "characterSize": 30,
           "color": {
             "b": 0,
             "g": 0,
             "r": 0
           }
-        },
-        {
-          "name": "TEST",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [
-            {
-              "canBeGrabbed": true,
-              "name": "Platform",
-              "platformType": "NormalPlatform",
-              "type": "PlatformBehavior::PlatformBehavior",
-              "yGrabOffset": 0
-            }
-          ],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "tileset_1_1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
         }
       ],
       "events": [
