@@ -6952,6 +6952,14 @@
               "events": []
             }
           ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
+          "events": []
         }
       ],
       "layers": [
@@ -11788,7 +11796,43 @@
         "windowMask": false,
         "zoomFactor": 1.792
       },
-      "objectsGroups": [],
+      "objectsGroups": [
+        {
+          "name": "Group",
+          "objects": [
+            {
+              "name": "NewObject"
+            },
+            {
+              "name": "Player"
+            },
+            {
+              "name": "NewObject2"
+            },
+            {
+              "name": "NewObject3"
+            },
+            {
+              "name": "HitBox"
+            },
+            {
+              "name": "boxer"
+            },
+            {
+              "name": "nowyGostek"
+            },
+            {
+              "name": "pyk"
+            },
+            {
+              "name": "wPrawo"
+            },
+            {
+              "name": "wLewo"
+            }
+          ]
+        }
+      ],
       "variables": [],
       "instances": [
         {
@@ -18007,6 +18051,66 @@
           "propertyDescriptors": []
         }
       ]
+    },
+    {
+      "author": "",
+      "description": "",
+      "extensionNamespace": "",
+      "fullName": "",
+      "name": "scaling",
+      "shortDescription": "",
+      "tags": "",
+      "version": "",
+      "eventsFunctions": [
+        {
+          "description": "",
+          "fullName": "",
+          "functionType": "Action",
+          "name": "onFirstSceneLoaded",
+          "sentence": "",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "",
+              "comment2": ""
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": "runtimeScene.setBackgroundColor(100,100,240);\nscaleW = exactWidthYouWant/objectSize\nscaleW = scaleW * 100\nscaleH = exactHeightYouWant/objectSize\nscaleH = scaleH * 100\nAction resize object :\nwidth = objectWidth * scaleW\nheight = objectHeight * scaleH\n",
+              "parameterObjects": "",
+              "useStrict": true
+            }
+          ],
+          "parameters": [],
+          "objectGroups": [
+            {
+              "name": "Group",
+              "objects": []
+            }
+          ]
+        }
+      ],
+      "eventsBasedBehaviors": []
     }
   ],
   "externalLayouts": [],
