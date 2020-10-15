@@ -1018,6 +1018,33 @@
         "name": "NewObject-1.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "New Piskel-1.png (2).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "New Piskel-1.png (2).png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "New Piskel-1.png (3).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "New Piskel-1.png (3).png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "New Piskel-1.png (4).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "New Piskel-1.png (4).png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -14516,8 +14543,8 @@
         "gridR": 158,
         "gridWidth": 32,
         "snap": false,
-        "windowMask": true,
-        "zoomFactor": 1.456
+        "windowMask": false,
+        "zoomFactor": 1.6
       },
       "objectsGroups": [],
       "variables": [],
@@ -14540,22 +14567,6 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "height": 64,
-          "layer": "",
-          "locked": false,
-          "name": "sklepikRzecz2",
-          "persistentUuid": "ff21391f-af03-481d-8e54-850dbda4cd05",
-          "width": 64,
-          "x": 180,
-          "y": 160,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "layer": "",
@@ -14566,6 +14577,22 @@
           "x": 320,
           "y": 160,
           "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "sklepikRzecz2",
+          "persistentUuid": "0db53267-f4cd-44e4-ae77-819f5c463478",
+          "width": 0,
+          "x": 176,
+          "y": 160,
+          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -14581,7 +14608,36 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "NewObject",
+              "name": "ScrollGowna",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "New Piskel-1.png (4).png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "kupione",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -14612,14 +14668,43 @@
           ]
         },
         {
-          "height": 32,
           "name": "sklepikRzecz2",
           "tags": "",
-          "texture": "NewObject-1.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 32,
+          "type": "Sprite",
+          "updateIfNotVisible": false,
           "variables": [],
-          "behaviors": []
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "kupione",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewObject-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "name": "sklepikRzecz3",
@@ -14630,7 +14715,7 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "",
+              "name": "kupione",
               "useMultipleDirections": false,
               "directions": [
                 {
