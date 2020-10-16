@@ -1128,7 +1128,7 @@
       "title": "",
       "v": 189,
       "uiSettings": {
-        "grid": true,
+        "grid": false,
         "gridB": 255,
         "gridG": 180,
         "gridHeight": 16,
@@ -1136,9 +1136,9 @@
         "gridOffsetY": 0,
         "gridR": 158,
         "gridWidth": 16,
-        "snap": true,
+        "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.97
+        "zoomFactor": 1.354
       },
       "objectsGroups": [],
       "variables": [],
@@ -1296,7 +1296,7 @@
           "name": "score",
           "persistentUuid": "ca024b61-a055-49f6-bccb-500f50c95af3",
           "width": 1616,
-          "x": 80,
+          "x": 98,
           "y": 0,
           "zOrder": 14,
           "numberProperties": [],
@@ -1536,7 +1536,7 @@
           "name": "skull",
           "persistentUuid": "a2f8064c-ef46-4aa6-bedc-763dc1b6fecc",
           "width": 64,
-          "x": 20,
+          "x": 34,
           "y": 12,
           "zOrder": 30,
           "numberProperties": [],
@@ -3779,7 +3779,7 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "tak",
+              "name": "jeszczeNie",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -3788,7 +3788,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "gui_2.png",
+                      "image": "117533516_463997534483428_4645119766578979289_n.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3808,7 +3808,7 @@
               ]
             },
             {
-              "name": "jeszczeNie",
+              "name": "tak",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -3817,7 +3817,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "117533516_463997534483428_4645119766578979289_n.jpg",
+                      "image": "gui_2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3876,7 +3876,7 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "tak",
+              "name": "jeszczeNie",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -3885,7 +3885,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "gui_2.png",
+                      "image": "117533516_463997534483428_4645119766578979289_n.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3905,7 +3905,7 @@
               ]
             },
             {
-              "name": "jeszczeNie",
+              "name": "tak",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -3914,7 +3914,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "117533516_463997534483428_4645119766578979289_n.jpg",
+                      "image": "gui_2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3973,7 +3973,7 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "tak",
+              "name": "jeszczeNie",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -3982,7 +3982,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "gui_2.png",
+                      "image": "117533516_463997534483428_4645119766578979289_n.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4002,7 +4002,7 @@
               ]
             },
             {
-              "name": "jeszczeNie",
+              "name": "tak",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -4011,7 +4011,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "117533516_463997534483428_4645119766578979289_n.jpg",
+                      "image": "gui_2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4070,7 +4070,7 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "tak",
+              "name": "jeszczeNie",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -4079,7 +4079,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "gui_2.png",
+                      "image": "117533516_463997534483428_4645119766578979289_n.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4099,7 +4099,7 @@
               ]
             },
             {
-              "name": "jeszczeNie",
+              "name": "tak",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -4108,7 +4108,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "117533516_463997534483428_4645119766578979289_n.jpg",
+                      "image": "gui_2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4167,7 +4167,7 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "tak",
+              "name": "jeszczeNie",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -4176,7 +4176,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "gui_2.png",
+                      "image": "117533516_463997534483428_4645119766578979289_n.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4196,7 +4196,7 @@
               ]
             },
             {
-              "name": "jeszczeNie",
+              "name": "tak",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -4205,7 +4205,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "117533516_463997534483428_4645119766578979289_n.jpg",
+                      "image": "gui_2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
