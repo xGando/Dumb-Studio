@@ -1118,7 +1118,7 @@
         "gridWidth": 16,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 1.906
+        "zoomFactor": 0.49
       },
       "objectsGroups": [],
       "variables": [],
@@ -6957,8 +6957,33 @@
           "disabled": false,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [],
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Delete"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"sklepik\"",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
           "events": []
         }
       ],
@@ -15172,6 +15197,18 @@
                 "0"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "score",
+                ">=",
+                "50"
+              ],
+              "subInstructions": []
             }
           ],
           "actions": [
@@ -15196,6 +15233,18 @@
                 "sklepikRzecz",
                 "=",
                 "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "score",
+                "-",
+                "50"
               ],
               "subInstructions": []
             }
