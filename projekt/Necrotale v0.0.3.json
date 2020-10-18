@@ -6243,7 +6243,7 @@
                 },
                 {
                   "disabled": false,
-                  "folded": false,
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -14849,7 +14849,7 @@
         "gridWidth": 96,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.424
+        "zoomFactor": 0.304
       },
       "objectsGroups": [],
       "variables": [],
@@ -14920,15 +14920,15 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "height": 96,
           "layer": "",
           "locked": false,
           "name": "ScroolGownaH",
           "persistentUuid": "7604cbcd-2bbe-46bc-aeff-28b817dbab6f",
-          "width": 0,
+          "width": 96,
           "x": 345,
-          "y": 612,
+          "y": 604,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
