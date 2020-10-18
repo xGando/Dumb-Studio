@@ -1196,7 +1196,7 @@
         "gridWidth": 96,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 1.09
+        "zoomFactor": 0.946
       },
       "objectsGroups": [],
       "variables": [],
@@ -1348,14 +1348,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 80,
+          "height": 96,
           "layer": "GUI",
           "locked": false,
           "name": "score",
           "persistentUuid": "ca024b61-a055-49f6-bccb-500f50c95af3",
-          "width": 1616,
-          "x": 98,
-          "y": 0,
+          "width": 1632,
+          "x": 77,
+          "y": 2,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
@@ -1594,7 +1594,7 @@
           "name": "skull",
           "persistentUuid": "a2f8064c-ef46-4aa6-bedc-763dc1b6fecc",
           "width": 64,
-          "x": 34,
+          "x": 6,
           "y": 12,
           "zOrder": 30,
           "numberProperties": [],
@@ -14849,7 +14849,7 @@
         "gridWidth": 96,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.304
+        "zoomFactor": 0.496
       },
       "objectsGroups": [],
       "variables": [],
