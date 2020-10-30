@@ -1196,7 +1196,7 @@
         "gridWidth": 96,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.538
+        "zoomFactor": 0.298
       },
       "objectsGroups": [],
       "variables": [],
@@ -1721,7 +1721,7 @@
           "locked": false,
           "name": "grass",
           "persistentUuid": "69add981-7313-4330-94ca-8c98113de7ab",
-          "width": 3264,
+          "width": 1632,
           "x": 0,
           "y": 480,
           "zOrder": 146,
@@ -1773,6 +1773,54 @@
           "x": 0,
           "y": -192,
           "zOrder": 149,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 480,
+          "layer": "",
+          "locked": false,
+          "name": "dirt_wall",
+          "persistentUuid": "fbcf7b52-86e9-4bd7-9753-03f4a421f00b",
+          "width": 1344,
+          "x": 1632,
+          "y": 0,
+          "zOrder": 150,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 96,
+          "layer": "",
+          "locked": false,
+          "name": "grass",
+          "persistentUuid": "b5e62ed1-fffb-4e31-bfab-d53df3a2379b",
+          "width": 1344,
+          "x": 1632,
+          "y": -96,
+          "zOrder": 151,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 96,
+          "layer": "",
+          "locked": false,
+          "name": "dirt",
+          "persistentUuid": "20ad4463-50bc-4ec3-92d7-c6e16fb47f71",
+          "width": 1344,
+          "x": 1632,
+          "y": 480,
+          "zOrder": 152,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3379,12 +3427,12 @@
           ]
         },
         {
-          "height": 16,
+          "height": 96,
           "name": "dirt_wall",
           "tags": "",
           "texture": "tileset_2_7.png",
           "type": "TiledSpriteObject::TiledSprite",
-          "width": 16,
+          "width": 96,
           "variables": [],
           "behaviors": []
         },
@@ -3417,12 +3465,12 @@
           "behaviors": []
         },
         {
-          "height": 16,
+          "height": 96,
           "name": "stone",
           "tags": "",
           "texture": "tileset_1_2.png",
           "type": "TiledSpriteObject::TiledSprite",
-          "width": 16,
+          "width": 96,
           "variables": [],
           "behaviors": [
             {
