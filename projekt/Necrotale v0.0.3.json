@@ -1246,7 +1246,7 @@
         "gridWidth": 48,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.946
+        "zoomFactor": 0.49
       },
       "objectsGroups": [],
       "variables": [
@@ -15750,7 +15750,7 @@
         "gridWidth": 96,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.664
+        "zoomFactor": 0.496
       },
       "objectsGroups": [],
       "variables": [],
@@ -16081,7 +16081,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Sklepik",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -16247,7 +16247,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "poopooScroll(1)",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
