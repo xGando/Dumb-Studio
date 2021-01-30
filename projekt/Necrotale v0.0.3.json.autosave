@@ -5426,7 +5426,7 @@
                 },
                 {
                   "disabled": false,
-                  "folded": false,
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -5719,8 +5719,20 @@
                         "",
                         "krok1.wav",
                         "no",
-                        "40",
+                        "30",
                         ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "kroki",
+                        "=",
+                        "0"
                       ],
                       "subInstructions": []
                     }
@@ -5763,8 +5775,20 @@
                         "",
                         "krok2.mp3",
                         "no",
-                        "40",
+                        "30",
                         ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "kroki",
+                        "=",
+                        "0"
                       ],
                       "subInstructions": []
                     }
@@ -5807,8 +5831,20 @@
                         "",
                         "krok3.mp3",
                         "no",
-                        "40",
+                        "30",
                         ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "kroki",
+                        "=",
+                        "0"
                       ],
                       "subInstructions": []
                     }
@@ -5851,8 +5887,20 @@
                         "",
                         "krok4.mp3",
                         "no",
-                        "40",
+                        "30",
                         ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "kroki",
+                        "=",
+                        "0"
                       ],
                       "subInstructions": []
                     }
