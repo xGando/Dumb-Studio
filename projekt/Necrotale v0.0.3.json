@@ -3959,20 +3959,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 10,
-                            "y": 30
+                            "x": 62.002,
+                            "y": 181.562
                           },
                           {
-                            "x": 54,
-                            "y": 30
+                            "x": 324.502,
+                            "y": 181.562
                           },
                           {
-                            "x": 54,
-                            "y": 39
+                            "x": 247.031,
+                            "y": 243.75
                           },
                           {
-                            "x": 10,
-                            "y": 39
+                            "x": 114.531,
+                            "y": 238.75
                           }
                         ]
                       ]
@@ -6747,7 +6747,7 @@
                           "parameters": [
                             "kupkaPlatforma",
                             "Player",
-                            "40\n",
+                            "70\n",
                             ""
                           ],
                           "subInstructions": []
@@ -6811,7 +6811,7 @@
                           "parameters": [
                             "kupkaPlatforma",
                             "Player",
-                            "-40\n\n",
+                            "-70\n\n",
                             ""
                           ],
                           "subInstructions": []
@@ -15740,7 +15740,7 @@
       "title": "",
       "v": 209,
       "uiSettings": {
-        "grid": true,
+        "grid": false,
         "gridB": 255,
         "gridG": 180,
         "gridHeight": 96,
@@ -15748,9 +15748,9 @@
         "gridOffsetY": 0,
         "gridR": 158,
         "gridWidth": 96,
-        "snap": true,
+        "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.352
+        "zoomFactor": 0.664
       },
       "objectsGroups": [],
       "variables": [],
@@ -15827,9 +15827,9 @@
           "locked": false,
           "name": "ScroolGownaH",
           "persistentUuid": "7604cbcd-2bbe-46bc-aeff-28b817dbab6f",
-          "width": 96,
-          "x": 345,
-          "y": 604,
+          "width": 192,
+          "x": 332,
+          "y": 607,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -16064,7 +16064,7 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "50$",
+          "string": "500$",
           "font": "",
           "characterSize": 50,
           "color": {
@@ -16081,7 +16081,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Sklepik",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -16247,7 +16247,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "poopooScroll(1)",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -16392,7 +16392,7 @@
                   "parameters": [
                     "score",
                     ">=",
-                    "50"
+                    "500"
                   ],
                   "subInstructions": []
                 }
@@ -16430,7 +16430,7 @@
                   "parameters": [
                     "score",
                     "-",
-                    "50"
+                    "500"
                   ],
                   "subInstructions": []
                 }
