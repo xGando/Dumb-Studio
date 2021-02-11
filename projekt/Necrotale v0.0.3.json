@@ -1104,6 +1104,15 @@
         "metadata": "",
         "name": "krok4.mp3",
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject2-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject2-1.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1246,7 +1255,7 @@
         "gridWidth": 48,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.49
+        "zoomFactor": 0.202
       },
       "objectsGroups": [],
       "variables": [
@@ -1971,7 +1980,7 @@
           "width": 96,
           "x": 1344,
           "y": 1152,
-          "zOrder": 167,
+          "zOrder": 90,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1987,7 +1996,151 @@
           "width": 96,
           "x": 1344,
           "y": 1056,
-          "zOrder": 167,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "locked": false,
+          "name": "granica",
+          "persistentUuid": "07362b02-7a58-49de-b2e8-e8da97151f48",
+          "width": 68911,
+          "x": -10064,
+          "y": 3018,
+          "zOrder": 168,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 96,
+          "layer": "",
+          "locked": false,
+          "name": "ladder",
+          "persistentUuid": "b3ebf374-62a5-4eab-819a-5f89180ff3f7",
+          "width": 96,
+          "x": 1344,
+          "y": 960,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "kolec",
+          "persistentUuid": "db018cc8-5423-4c8f-a220-6e61b3aa1067",
+          "width": 0,
+          "x": 432,
+          "y": 1200,
+          "zOrder": 169,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "kolec",
+          "persistentUuid": "47d44442-678b-45b2-b3b6-73e5fcf3ff77",
+          "width": 0,
+          "x": 816,
+          "y": 1200,
+          "zOrder": 170,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "kolec",
+          "persistentUuid": "c19f9bad-3f87-439f-ae40-73bc6fbe61df",
+          "width": 0,
+          "x": -48,
+          "y": 1200,
+          "zOrder": 171,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "kolec",
+          "persistentUuid": "080bc1b4-0703-49fa-87cc-553c20bffd44",
+          "width": 0,
+          "x": -192,
+          "y": 1200,
+          "zOrder": 172,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 96,
+          "layer": "",
+          "locked": false,
+          "name": "test_enemy",
+          "persistentUuid": "21a055b2-e729-4c36-a88a-ee43d0859b24",
+          "width": 96,
+          "x": 240,
+          "y": 1152,
+          "zOrder": 173,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "left",
+          "persistentUuid": "db3fb86f-5371-42d5-87be-7c4b7e0e2af1",
+          "width": 0,
+          "x": 816,
+          "y": 1152,
+          "zOrder": 174,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "right",
+          "persistentUuid": "182d6c3b-fce5-422a-826a-a3b67eb4bd42",
+          "width": 0,
+          "x": -240,
+          "y": 1152,
+          "zOrder": 175,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2011,15 +2164,15 @@
               "type": "KonamiCode::KonamiCode"
             },
             {
-              "ladderClimbingSpeed": 270,
+              "acceleration": 2400,
+              "deceleration": 50000,
+              "maxSpeed": 900,
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "ladderClimbingSpeed": 270,
               "gravity": 1900,
               "jumpSpeed": 1000,
-              "acceleration": 2400,
-              "deceleration": 2350,
               "maxFallingSpeed": 2000,
-              "maxSpeed": 900,
               "xGrabTolerance": 9,
               "yGrabOffset": 9,
               "canGrabPlatforms": true,
@@ -3546,9 +3699,9 @@
           "variables": [],
           "behaviors": [
             {
-              "canBeGrabbed": false,
               "name": "Platform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": false,
               "platformType": "Ladder",
               "yGrabOffset": 0
             }
@@ -4060,6 +4213,45 @@
               ]
             }
           ]
+        },
+        {
+          "name": "granica",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewObject2",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewObject2-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -4080,7 +4272,7 @@
               "colorR": 74,
               "creationTime": 0,
               "disabled": false,
-              "folded": true,
+              "folded": false,
               "name": "gra",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -4253,6 +4445,36 @@
                     }
                   ],
                   "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "DepartScene"
+                      },
+                      "parameters": [
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "granica"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
                 }
               ],
               "parameters": []
@@ -4263,7 +4485,7 @@
               "colorR": 74,
               "creationTime": 0,
               "disabled": false,
-              "folded": true,
+              "folded": false,
               "name": "Enemy Collision",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -4812,7 +5034,7 @@
               "colorR": 74,
               "creationTime": 0,
               "disabled": false,
-              "folded": true,
+              "folded": false,
               "name": "GUI",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -5263,7 +5485,7 @@
               "colorR": 74,
               "creationTime": 0,
               "disabled": false,
-              "folded": true,
+              "folded": false,
               "name": "Player",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -5458,7 +5680,7 @@
                 },
                 {
                   "disabled": false,
-                  "folded": true,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -5486,56 +5708,11 @@
                       "subInstructions": []
                     }
                   ],
-                  "events": [
-                    {
-                      "disabled": false,
-                      "folded": false,
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": [],
-                          "subInstructions": []
-                        },
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "CollisionNP"
-                          },
-                          "parameters": [
-                            "Player",
-                            "kolec",
-                            "",
-                            "",
-                            ""
-                          ],
-                          "subInstructions": []
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "ModVarGlobal"
-                          },
-                          "parameters": [
-                            "hp",
-                            "-",
-                            "1"
-                          ],
-                          "subInstructions": []
-                        }
-                      ],
-                      "events": []
-                    }
-                  ]
+                  "events": []
                 },
                 {
                   "disabled": false,
-                  "folded": false,
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -5612,7 +5789,7 @@
                 },
                 {
                   "disabled": false,
-                  "folded": false,
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -6082,6 +6259,18 @@
                         ""
                       ],
                       "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Scene"
+                      },
+                      "parameters": [
+                        "",
+                        "\"dead\"",
+                        ""
+                      ],
+                      "subInstructions": []
                     }
                   ],
                   "events": []
@@ -6364,6 +6553,42 @@
                         "hitbox",
                         "nohit",
                         "1",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Player",
+                        "granica",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Scene"
+                      },
+                      "parameters": [
+                        "",
+                        "\"dead\"",
                         ""
                       ],
                       "subInstructions": []
@@ -6675,7 +6900,7 @@
               "colorR": 74,
               "creationTime": 0,
               "disabled": false,
-              "folded": false,
+              "folded": true,
               "name": "Itemy",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -6686,7 +6911,7 @@
                   "colorR": 74,
                   "creationTime": 0,
                   "disabled": false,
-                  "folded": false,
+                  "folded": true,
                   "name": "ScrollGowna",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -6903,7 +7128,7 @@
         "gridWidth": 96,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.634
+        "zoomFactor": 0.514
       },
       "objectsGroups": [],
       "variables": [],
@@ -16509,6 +16734,100 @@
           "ambientLightColorB": 9887760,
           "ambientLightColorG": 9682240,
           "ambientLightColorR": 7062136,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": []
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "dead",
+      "name": "dead",
+      "oglFOV": 90,
+      "oglZFar": 500,
+      "oglZNear": 1,
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridB": 255,
+        "gridG": 180,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridR": 158,
+        "gridWidth": 32,
+        "snap": true,
+        "windowMask": false,
+        "zoomFactor": 0.16
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 570,
+          "layer": "",
+          "locked": false,
+          "name": "nieZyjesz",
+          "persistentUuid": "2226d36b-d450-4ff0-b061-3ba13d142486",
+          "width": 2326,
+          "x": 113,
+          "y": 224,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "bold": true,
+          "italic": true,
+          "name": "nieZyjesz",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "nie żyjesz ",
+          "font": "PixelFJVerdana12pt.ttf",
+          "characterSize": 360,
+          "color": {
+            "b": 5,
+            "g": 5,
+            "r": 245
+          }
+        }
+      ],
+      "events": [],
+      "layers": [
+        {
+          "ambientLightColorB": 0,
+          "ambientLightColorG": 0,
+          "ambientLightColorR": 0,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "",
