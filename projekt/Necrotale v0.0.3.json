@@ -1273,7 +1273,7 @@
         "gridWidth": 48,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.274
+        "zoomFactor": 1.186
       },
       "objectsGroups": [],
       "variables": [
@@ -2179,6 +2179,70 @@
           "x": 0,
           "y": 0,
           "zOrder": 999999,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 48,
+          "layer": "",
+          "locked": false,
+          "name": "hppotion",
+          "persistentUuid": "e8c55eb8-365a-4c08-bee2-e58800d5ed62",
+          "width": 48,
+          "x": 1824,
+          "y": 912,
+          "zOrder": 1000000,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 96,
+          "layer": "",
+          "locked": false,
+          "name": "test_enemy",
+          "persistentUuid": "b1143784-4c84-43b7-b2d0-d8852b7aed64",
+          "width": 96,
+          "x": 336,
+          "y": 1152,
+          "zOrder": 1000001,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 96,
+          "layer": "",
+          "locked": false,
+          "name": "test_enemy",
+          "persistentUuid": "ba918c48-a141-4277-96fb-ab90d7fe8e8e",
+          "width": 96,
+          "x": 432,
+          "y": 1152,
+          "zOrder": 1000002,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 96,
+          "layer": "",
+          "locked": false,
+          "name": "test_enemy",
+          "persistentUuid": "33b397e8-e203-4853-8a85-00cc3aa60fd6",
+          "width": 96,
+          "x": 528,
+          "y": 1152,
+          "zOrder": 1000003,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4644,6 +4708,17 @@
                         "99"
                       ],
                       "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ChangeTimeScale"
+                      },
+                      "parameters": [
+                        "",
+                        "0"
+                      ],
+                      "subInstructions": []
                     }
                   ],
                   "events": []
@@ -4740,6 +4815,17 @@
                         "pause",
                         "=",
                         "0"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ChangeTimeScale"
+                      },
+                      "parameters": [
+                        "",
+                        "1"
                       ],
                       "subInstructions": []
                     }
@@ -17162,9 +17248,9 @@
           "font": "",
           "characterSize": 360,
           "color": {
-            "b": 5,
-            "g": 5,
-            "r": 245
+            "b": 6,
+            "g": 6,
+            "r": 187
           }
         },
         {
